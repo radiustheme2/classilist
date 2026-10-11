@@ -1,0 +1,1969 @@
+# Dutch (Nederlands) translation for ClassiList
+# Domain: classilist
+# Generated for conversion to .po / .mo / .l10n.php
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassiList\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-12 07:11+0000\n"
+"PO-Revision-Date: 2026-08-18 12:45+0000\n"
+"Last-Translator: Grok\n"
+"Language-Team: Dutch\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Grok\n"
+"X-Domain: classilist\n"
+
+#. %1$s is time ago, %2$s is the date, %3$s is the time.
+#: template-parts/comments-callback.php:39
+#, php-format
+msgid " %1$s ago / %2$s @ %3$s"
+msgstr " %1$s geleden / %2$s @ %3$s"
+
+#. %1$s is the number of views.
+#: classified-listing/custom/list-items/archive-list-2.php:105
+#: classified-listing/custom/list-items/archive-list-1.php:115
+#: classified-listing/custom/list-items/archive-grid-2.php:148
+#: classified-listing/custom/list-items/archive-grid-1.php:109
+#, php-format
+msgid "%1$s Views"
+msgstr "%1$s Weergaven"
+
+#. %s is the number of comments.
+#: comments.php:24
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s reactie"
+msgstr[1] "%s reacties"
+
+#. %s is the number of views.
+#: classified-listing/listing/actions.php:40
+#, php-format
+msgid "%s views"
+msgstr "%s weergaven"
+
+#: classified-listing/custom/functions.php:633
+#: classified-listing/custom/functions.php:652
+msgid "(Show)"
+msgstr "(Tonen)"
+
+#: inc/options/listings.php:55 inc/options/listings.php:67
+#: inc/options/listings.php:79 inc/options/general.php:48
+msgid "1 Column"
+msgstr "1 kolom"
+
+#: inc/options/general.php:67
+msgid "12 Hour"
+msgstr "12 uur"
+
+#: inc/options/listings.php:56 inc/options/listings.php:68
+#: inc/options/listings.php:80 inc/options/general.php:49
+msgid "2 Column"
+msgstr "2 kolommen"
+
+#: inc/options/general.php:68
+msgid "24 Hour"
+msgstr "24 uur"
+
+#: inc/options/listings.php:57 inc/options/listings.php:69
+#: inc/options/listings.php:81 inc/options/general.php:50
+msgid "3 Column"
+msgstr "3 kolommen"
+
+#: inc/options/listings.php:58 inc/options/listings.php:70
+#: inc/options/listings.php:82 inc/options/general.php:51
+msgid "4 Column"
+msgstr "4 kolommen"
+
+#: 404.php:22
+msgid "404"
+msgstr "404"
+
+#: inc/breadcrumbs.php:259
+msgid "404 Not Found"
+msgstr "404 Niet gevonden"
+
+#. 1: Theme name, 2: Version, 3: Changelog URL, 4: Changelog title, 5: Update URL, 6: Update onclick
+#: inc/updater/theme-updater.php:59
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\\\"%3$s\\\" class=\\\"thickbox\\\" title=\\\"%4$s\\\">Check out what's new</a> or <a href=\\\"%5$s\\\"%6$s>update now</a>."
+msgstr ""
+
+#: template-parts/content-single.php:72
+msgid "About Author"
+msgstr "Over de auteur"
+
+#. %s: theme name
+#: inc/updater/lc-helper.php:91
+#, php-format
+msgid ""
+"Activate %s to unlock one-click demo import, automatic updates, bundled plugin installation, and premium support."
+msgstr "Activeer %s om one-click demo-import, automatische updates, gebundelde plugin-installatie en premium ondersteuning te ontgrendelen."
+
+#: inc/options/advertisement.php:116
+msgid "Activate Ad"
+msgstr "Advertentie activeren"
+
+#: inc/updater/theme-updater.php:40
+msgid "Activate License"
+msgstr "Licentie activeren"
+
+#: inc/updater/theme-updater-admin.php:500
+msgid "activate your theme license"
+msgstr "activeer je themalicentie"
+
+#: inc/updater/lc-helper.php:78 inc/updater/theme-updater-admin.php:159
+msgid "Activated"
+msgstr "Geactiveerd"
+
+#: inc/updater/lc-helper.php:145
+msgid ""
+"Activation issues are usually a mistyped code or a license already in use on another domain."
+msgstr "Activeringsproblemen komen meestal door een verkeerd getypte code of een licentie die al op een ander domein in gebruik is."
+
+#: inc/options/color.php:144
+msgid "Active Breadcrumb Color"
+msgstr "Kleur actieve breadcrumb"
+
+#: inc/options/advertisement.php:124
+#: classified-listing/listing-form/category.php:28
+msgid "Ad Type"
+msgstr "Advertentietype"
+
+#: inc/sidebar-generator.php:57
+msgid "Add"
+msgstr "Toevoegen"
+
+#: template-parts/header/header.php:75
+msgid "Add a menu"
+msgstr "Een menu toevoegen"
+
+#: inc/sidebar-generator.php:48
+msgid "Add New Sidebar"
+msgstr "Nieuwe zijbalk toevoegen"
+
+#: classified-listing/listing/actions.php:58
+msgid "Add to Compare"
+msgstr "Toevoegen aan vergelijken"
+
+#: widgets/information.php:80 inc/options/topbar.php:49
+#: classified-listing/listing-form/contact.php:151
+msgid "Address"
+msgstr "Adres"
+
+#: inc/options/advertisement.php:32 inc/options/advertisement.php:33
+msgid "Advertisement Options"
+msgstr "Advertentie-opties"
+
+#: inc/options/advertisement.php:179
+msgid "Advertisements"
+msgstr "Advertenties"
+
+#: inc/options/advertisement.php:191
+msgid "After All Listing Items"
+msgstr "Na alle listing-items"
+
+#: inc/options/advertisement.php:211
+msgid "After Item Block"
+msgstr "Na itemblok"
+
+#: inc/options/advertisement.php:210
+msgid "After Item Contents"
+msgstr "Na iteminhoud"
+
+#: inc/options/advertisement.php:212
+msgid "After Location Block"
+msgstr "Na locatieblok"
+
+#: inc/options/advertisement.php:268
+msgid "After Page Contents"
+msgstr "Na pagina-inhoud"
+
+#: inc/options/advertisement.php:249
+msgid "After Post Contents"
+msgstr "Na berichtinhoud"
+
+#: inc/options/advertisement.php:213
+msgid "After Related Items Block"
+msgstr "Na gerelateerde items-blok"
+
+#: inc/options/advertisement.php:188 inc/options/advertisement.php:207
+#: inc/options/advertisement.php:229 inc/options/advertisement.php:246
+#: inc/options/advertisement.php:265
+msgid "After Sidebar"
+msgstr "Na zijbalk"
+
+#. %s is the store name.
+#: classified-listing/store/custom/store-contents.php:90
+#, php-format
+msgid "All Ads from %s"
+msgstr "Alle advertenties van %s"
+
+#: inc/helper.php:51 template-parts/content-top.php:31
+msgid "All Posts"
+msgstr "Alle berichten"
+
+#: classified-listing/store/custom/store-contents.php:81
+#: classified-listing/store/custom/store-time.php:41
+msgid "Always Open"
+msgstr "Altijd open"
+
+#: inc/breadcrumbs.php:260
+msgid "Archives"
+msgstr "Archieven"
+
+#: inc/sidebar-generator.php:85
+msgid "Are you sure you want to remove this custom sidebar"
+msgstr "Weet je zeker dat je deze aangepaste zijbalk wilt verwijderen?"
+
+#: inc/options/listings.php:147
+msgid "Auto Suggestion"
+msgstr "Automatische suggestie"
+
+#: classified-listing/single-rtcl_listing-reviews.php:111
+msgid "Average"
+msgstr "Gemiddeld"
+
+#: inc/options/general.php:92
+msgid "Back to Top Arrow"
+msgstr "Pijl terug naar boven"
+
+#: inc/options/advertisement.php:190
+msgid "Before All Listing Items"
+msgstr "Voor alle listing-items"
+
+#: inc/options/advertisement.php:209
+msgid "Before Item Contents"
+msgstr "Voor iteminhoud"
+
+#: inc/options/advertisement.php:267
+msgid "Before Page Contents"
+msgstr "Voor pagina-inhoud"
+
+#: inc/options/advertisement.php:248
+msgid "Before Post Contents"
+msgstr "Voor berichtinhoud"
+
+#: inc/options/advertisement.php:187 inc/options/advertisement.php:206
+#: inc/options/advertisement.php:228 inc/options/advertisement.php:245
+#: inc/options/advertisement.php:264
+msgid "Before Sidebar"
+msgstr "Voor zijbalk"
+
+#. Name of the template
+#: templates/blank.php:2
+msgid "Blank Template"
+msgstr "Leeg sjabloon"
+
+#: inc/options/layout.php:112
+msgid "Blog / Archive"
+msgstr "Blog / Archief"
+
+#: inc/options/blog.php:21
+msgid "Blog Settings"
+msgstr "Bloginstellingen"
+
+#: inc/options/advertisement.php:235
+msgid "Blog/Archive"
+msgstr "Blog/Archief"
+
+#: inc/options/blog.php:29
+msgid "Blog/Archive Layout"
+msgstr "Blog/archief-layout"
+
+#: inc/options/typography.php:27
+msgid "Body"
+msgstr "Body"
+
+#: classified-listing/custom/functions.php:126
+msgid "Booking Button"
+msgstr "Boekingsknop"
+
+#: inc/options/layout.php:77 inc/options/header.php:115
+#: inc/options/color.php:122 inc/options/general.php:58
+msgid "Breadcrumb"
+msgstr "Breadcrumb"
+
+#: inc/options/color.php:129
+msgid "Breadcrumb Link Color"
+msgstr "Kleur breadcrumb-link"
+
+#: inc/options/color.php:136
+msgid "Breadcrumb Link Hover Color"
+msgstr "Kleur breadcrumb-link bij hover"
+
+#: inc/options/color.php:151
+msgid "Breadcrumb Seperator Color"
+msgstr "Kleur breadcrumb-scheidingsteken"
+
+#: inc/breadcrumbs.php:257
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Breadcrumbs"
+
+#: inc/breadcrumbs.php:256
+msgid "Browse:"
+msgstr "Bladeren:"
+
+#: classified-listing/listing/business-hours.php:27
+msgid "Business Hours"
+msgstr "Openingstijden"
+
+#: inc/options/error.php:42
+msgid "Button Text"
+msgstr "Knoptekst"
+
+#: template-parts/content-single.php:36 template-parts/content.php:33
+#: template-parts/content-alt.php:34
+msgid "By"
+msgstr "Door"
+
+#: inc/updater/lc-helper.php:113
+msgid "by RadiusTheme"
+msgstr "door RadiusTheme"
+
+#: classified-listing/custom/functions.php:658
+msgid "Call on Telegram"
+msgstr "Bellen via Telegram"
+
+#: classified-listing/listing-form/category.php:59
+#: classified-listing/listing/custom-fields.php:27
+msgid "Category"
+msgstr "Categorie"
+
+#. %s is the character limit number.
+#: classified-listing/listing-form/information.php:53
+#: classified-listing/listing-form/information.php:207
+#, php-format
+msgid "Character limit <span class='target-limit'>%s</span>"
+msgstr "Tekenlimiet <span class='target-limit'>%s</span>"
+
+#: template-parts/header/header.php:66
+msgid "Chat"
+msgstr "Chat"
+
+#: classified-listing/custom/seller-info.php:139
+msgid "Chat with Seller"
+msgstr "Chat met verkoper"
+
+#: classified-listing/listing/actions.php:77
+#: classified-listing/listing/actions.php:83
+msgid "Claim to this listing"
+msgstr "Claim deze listing"
+
+#: inc/updater/lc-helper.php:113
+msgid "Classified Ads WordPress Theme"
+msgstr "WordPress-thema voor geclassificeerde advertenties"
+
+#. Name of the theme
+msgid "ClassiList"
+msgstr "ClassiList"
+
+#. Description of the theme
+msgid ""
+"ClassiList is a clean and modern WordPress Theme best suited for Classified Listing. This theme comes with all necessary features and pages for a Classified Listing website."
+msgstr "ClassiList is een clean en modern WordPress-thema dat het best geschikt is voor Classified Listing. Dit thema bevat alle benodigde functies en pagina's voor een Classified Listing-website."
+
+#. Base ID
+#: widgets/about.php:22 widgets/about.php:23
+msgid "ClassiList: About"
+msgstr "ClassiList: Over"
+
+#. Base ID
+#: widgets/information.php:22 widgets/information.php:23
+msgid "ClassiList: Contact Info"
+msgstr "ClassiList: Contactgegevens"
+
+#: classified-listing/custom/seller-info.php:120
+msgid "Click Here"
+msgstr "Klik hier"
+
+#: classified-listing/store/custom/store-phone.php:22
+msgid "Click to reveal phone number"
+msgstr "Klik om telefoonnummer te tonen"
+
+#: classified-listing/listing/business-hours.php:48
+#: classified-listing/listing/business-hours.php:61
+msgid "Close"
+msgstr "Sluiten"
+
+#: classified-listing/store/custom/sidebar-store.php:37
+msgid "Close now"
+msgstr "Nu sluiten"
+
+#: classified-listing/store/custom/store-time.php:32
+msgid "Close:"
+msgstr "Sluiting:"
+
+#: classified-listing/listing/business-hours.php:94
+#: classified-listing/store/custom/store-contents.php:71
+msgid "Closed"
+msgstr "Gesloten"
+
+#: classified-listing/store/custom/store-time.php:19
+msgid "Closed Now"
+msgstr "Nu gesloten"
+
+#: classified-listing/listing/business-hours.php:93
+#: classified-listing/store/custom/store-time.php:38
+msgid "Closed Today"
+msgstr "Vandaag gesloten"
+
+#: inc/options/color.php:21
+msgid "Colors"
+msgstr "Kleuren"
+
+#: template-parts/content-single.php:19 template-parts/content.php:18
+#: template-parts/content-alt.php:19
+msgid "Comment"
+msgstr "Reactie"
+
+#: comments.php:44
+msgid "Comment *"
+msgstr "Reactie *"
+
+#. %s is the page number.
+#: inc/breadcrumbs.php:266
+#, php-format
+msgid "Comment Page %s"
+msgstr "Reactiepagina %s"
+
+#: template-parts/content-single.php:19 template-parts/content.php:18
+#: template-parts/content-alt.php:19
+msgid "Comments"
+msgstr "Reacties"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: classified-listing/listing/actions.php:57
+#: classified-listing/custom/list-items/archive-list-2.php:135
+msgid "Compare"
+msgstr "Vergelijken"
+
+#: classified-listing/myaccount/form-login.php:128
+msgid "Confirm Password"
+msgstr "Bevestig wachtwoord"
+
+#: classified-listing/listing-form/contact.php:42
+msgid "Contact Details"
+msgstr "Contactgegevens"
+
+#: widgets/information.php:66
+msgid "Contact Info"
+msgstr "Contactinfo"
+
+#: classified-listing/store/custom/sidebar-store.php:101
+msgid "Contact Number"
+msgstr "Contactnummer"
+
+#: inc/updater/lc-helper.php:148
+msgid "Contact Support Center"
+msgstr "Neem contact op met het supportcentrum"
+
+#: inc/updater/lc-helper.php:137
+#, php-format
+msgid "Copy the key for %s."
+msgstr "Kopieer de sleutel voor %s."
+
+#: inc/options/color.php:199 inc/options/footer.php:29
+msgid "Copyright Area"
+msgstr "Copyright-gebied"
+
+#: inc/options/color.php:206
+msgid "Copyright Background Color"
+msgstr "Achtergrondkleur copyright"
+
+#: inc/options/footer.php:43
+msgid "Copyright Text"
+msgstr "Copyrighttekst"
+
+#: inc/options/color.php:213
+msgid "Copyright Text Color"
+msgstr "Tekstkleur copyright"
+
+#: classified-listing/multi-currency/price-currency.php:23
+msgid "Currency"
+msgstr "Valuta"
+
+#: inc/options/color.php:52
+msgid "Custom"
+msgstr "Aangepast"
+
+#: inc/options/advertisement.php:127 inc/options/advertisement.php:168
+msgid "Custom Code"
+msgstr "Aangepaste code"
+
+#: inc/options/listings.php:45
+msgid "Custom fileds on grid view"
+msgstr "Aangepaste velden in rasterweergave"
+
+#: inc/options/listings.php:113
+msgid "Custom fileds on list view"
+msgstr "Aangepaste velden in lijstweergave"
+
+#: inc/options/layout.php:36
+msgid "Custom Sidebar"
+msgstr "Aangepaste zijbalk"
+
+#: inc/breadcrumbs.php:810 inc/breadcrumbs.php:1271
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/updater/theme-updater.php:39
+msgid "Deactivate License"
+msgstr "Licentie deactiveren"
+
+#: inc/options/layout.php:46 inc/options/layout.php:57
+#: inc/options/layout.php:68 inc/options/layout.php:79
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/options/listings.php:148
+msgid "Dependency Selection"
+msgstr "Afhankelijkheidsselectie"
+
+#: widgets/about.php:116 classified-listing/listing-form/information.php:181
+msgid "Description"
+msgstr "Beschrijving"
+
+#: inc/options/listings.php:53
+msgid "Desktop"
+msgstr "Desktop"
+
+#: classified-listing/store/custom/store-contents.php:50
+msgid "Details"
+msgstr "Details"
+
+#: inc/options/topbar.php:30 inc/options/advertisement.php:118
+#: inc/options/advertisement.php:151 inc/options/advertisement.php:160
+#: inc/options/layout.php:48 inc/options/layout.php:70
+#: inc/options/layout.php:81 inc/options/header.php:40
+#: inc/options/header.php:65 inc/options/header.php:73
+#: inc/options/header.php:109 inc/options/header.php:117
+#: inc/options/footer.php:37 inc/options/footer.php:52
+#: inc/options/general.php:60 inc/options/general.php:76
+#: inc/options/general.php:94 inc/options/general.php:103
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: inc/options/post.php:104
+msgid "Display About Author"
+msgstr "Toon over de auteur"
+
+#: inc/options/post.php:36 inc/options/blog.php:53
+msgid "Display Author Name"
+msgstr "Toon auteursnaam"
+
+#: inc/options/post.php:44 inc/options/blog.php:61
+msgid "Display Categories"
+msgstr "Toon categorieën"
+
+#: inc/options/post.php:52 inc/options/blog.php:69
+msgid "Display Comment Number"
+msgstr "Toon aantal reacties"
+
+#: inc/options/footer.php:35
+msgid "Display Copyright Area"
+msgstr "Toon copyright-gebied"
+
+#: inc/options/blog.php:45
+msgid "Display Date"
+msgstr "Toon datum"
+
+#: inc/options/footer.php:50
+msgid "Display Payment Icons"
+msgstr "Toon betaaliconen"
+
+#: inc/options/post.php:28
+msgid "Display Post Date"
+msgstr "Toon berichtdatum"
+
+#: inc/options/listings.php:128
+msgid "Display Related Listing"
+msgstr "Toon gerelateerde listings"
+
+#: inc/options/post.php:68
+msgid "Display Social Sharing"
+msgstr "Toon sociaal delen"
+
+#: inc/options/post.php:60
+msgid "Display Tags"
+msgstr "Toon tags"
+
+#: classified-listing/listing-form/contact.php:257
+msgid "Don't show the Map"
+msgstr "Toon de kaart niet"
+
+#: comments.php:35 widgets/information.php:92 inc/options/topbar.php:42
+#: classified-listing/listing-form/contact.php:211
+msgid "Email"
+msgstr "E-mail"
+
+#: classified-listing/custom/seller-info.php:109
+msgid "Email Address"
+msgstr "E-mailadres"
+
+#: classified-listing/myaccount/form-login.php:109
+msgid "Email address"
+msgstr "E-mailadres"
+
+#: classified-listing/custom/seller-info.php:148
+msgid "Email to Seller"
+msgstr "E-mail naar verkoper"
+
+#: classified-listing/store/custom/sidebar-store.php:139
+msgid "Email to Store Owner"
+msgstr "E-mail naar winkeleigenaar"
+
+#: inc/sidebar-generator.php:102 inc/sidebar-generator.php:149
+msgid "Empty nonce"
+msgstr "Lege nonce"
+
+#: inc/options/topbar.php:29 inc/options/advertisement.php:117
+#: inc/options/advertisement.php:150 inc/options/advertisement.php:159
+#: inc/options/layout.php:47 inc/options/layout.php:69
+#: inc/options/layout.php:80 inc/options/header.php:39
+#: inc/options/header.php:64 inc/options/header.php:72
+#: inc/options/header.php:108 inc/options/header.php:116
+#: inc/options/footer.php:36 inc/options/footer.php:51
+#: inc/options/general.php:59 inc/options/general.php:75
+#: inc/options/general.php:93 inc/options/general.php:102
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: classified-listing/custom/listing-search.php:218
+msgid "Enter Keyword here ..."
+msgstr "Voer hier trefwoord in ..."
+
+#: inc/updater/theme-updater-admin.php:152
+msgid "Enter your theme license key"
+msgstr "Voer je themalicentiesleutel in"
+
+#: inc/updater/theme-updater.php:36
+msgid "Enter your theme license key."
+msgstr "Voer je themalicentiesleutel in."
+
+#: inc/options/layout.php:146
+msgid "Error 404 Layout"
+msgstr "Fout 404-layout"
+
+#: inc/options/error.php:20
+msgid "Error Page Settings"
+msgstr "Instellingen foutpagina"
+
+#: inc/options/error.php:36
+msgid "Error Text"
+msgstr "Fouttekst"
+
+#: inc/options/listings.php:107
+msgid "Excerpt Length"
+msgstr "Lengte samenvatting"
+
+#. %s: expiration date
+#: inc/updater/theme-updater.php:46
+#, php-format
+msgid "Expires %s."
+msgstr "Verloopt op %s."
+
+#: inc/options/topbar.php:55
+msgid "Facebook"
+msgstr "Facebook"
+
+#: widgets/about.php:120
+msgid "Facebook URL"
+msgstr "Facebook-URL"
+
+#: widgets/information.php:88
+msgid "Fax"
+msgstr "Fax"
+
+#: inc/options/error.php:28
+msgid "Featured Image"
+msgstr "Uitgelichte afbeelding"
+
+#: classified-listing/custom/sidebar-archive.php:33
+msgid "Filter Ads"
+msgstr "Advertenties filteren"
+
+#: inc/options/advertisement.php:189 inc/options/advertisement.php:208
+#: inc/options/advertisement.php:230 inc/options/advertisement.php:247
+#: inc/options/advertisement.php:266 inc/options/footer.php:21
+msgid "Footer"
+msgstr "Footer"
+
+#: inc/general.php:109
+msgid "Footer 1"
+msgstr "Footer 1"
+
+#: inc/general.php:110
+msgid "Footer 2"
+msgstr "Footer 2"
+
+#: inc/general.php:111
+msgid "Footer 3"
+msgstr "Footer 3"
+
+#: inc/general.php:112
+msgid "Footer 4"
+msgstr "Footer 4"
+
+#: inc/options/color.php:157
+msgid "Footer Area"
+msgstr "Footergebied"
+
+#: inc/options/color.php:164
+msgid "Footer Background Color"
+msgstr "Achtergrondkleur footer"
+
+#: inc/options/color.php:185
+msgid "Footer Body Link Color"
+msgstr "Kleur body-links footer"
+
+#: inc/options/color.php:192
+msgid "Footer Body Link Hover Color"
+msgstr "Kleur body-links footer bij hover"
+
+#: inc/options/color.php:178
+msgid "Footer Body Text Color"
+msgstr "Tekstkleur body footer"
+
+#: inc/options/color.php:171
+msgid "Footer Title Text Color"
+msgstr "Tekstkleur titel footer"
+
+#: classified-listing/myaccount/form-login.php:76
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: classified-listing/store/custom/store-contents.php:31
+msgid "Friday"
+msgstr "Vrijdag"
+
+#: inc/options/layout.php:28 inc/options/layout.php:157
+#: inc/options/layout.php:175 inc/options/layout.php:192
+msgid "Full Width"
+msgstr "Volledige breedte"
+
+#: inc/options/general.php:20
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/updater/lc-helper.php:136
+msgid "Go to Downloads, then License keys."
+msgstr "Ga naar Downloads, dan Licentiesleutels."
+
+#: inc/options/error.php:43
+msgid "Go To Home Page"
+msgstr "Ga naar startpagina"
+
+#: classified-listing/single-rtcl_listing-reviews.php:110
+msgid "Good"
+msgstr "Goed"
+
+#: inc/scripts.php:206
+msgctxt "Google fonts - Open Sans and Poppins : on or off"
+msgid "on"
+msgstr "aan"
+
+#: inc/options/listings.php:29
+msgid "Grid View Settings"
+msgstr "Instellingen rasterweergave"
+
+#: inc/options/listings.php:35
+msgid "Grid View Style"
+msgstr "Stijl rasterweergave"
+
+#: inc/options/advertisement.php:186 inc/options/advertisement.php:205
+#: inc/options/advertisement.php:227 inc/options/advertisement.php:244
+#: inc/options/advertisement.php:263 inc/options/header.php:20
+msgid "Header"
+msgstr "Header"
+
+#: inc/options/header.php:95
+msgid "Header Button Text"
+msgstr "Tekst headerknop"
+
+#: inc/options/header.php:101
+msgid "Header Button URL"
+msgstr "URL headerknop"
+
+#: inc/options/header.php:71
+msgid "Header Chat Icon"
+msgstr "Header chat-icoon"
+
+#: inc/options/typography.php:43
+msgid "Header h1"
+msgstr "Header h1"
+
+#: inc/options/typography.php:59
+msgid "Header h2"
+msgstr "Header h2"
+
+#: inc/options/typography.php:75
+msgid "Header h3"
+msgstr "Header h3"
+
+#: inc/options/typography.php:91
+msgid "Header h4"
+msgstr "Header h4"
+
+#: inc/options/typography.php:107
+msgid "Header h5"
+msgstr "Header h5"
+
+#: inc/options/typography.php:123
+msgid "Header h6"
+msgstr "Header h6"
+
+#: inc/options/layout.php:55 inc/options/header.php:47
+msgid "Header Layout"
+msgstr "Header-layout"
+
+#: inc/options/header.php:63
+msgid "Header Login Icon"
+msgstr "Header login-icoon"
+
+#: inc/options/header.php:79
+msgid "Header Login Icon Text (Guest Mode)"
+msgstr "Tekst header login-icoon (gastmodus)"
+
+#: inc/options/header.php:87
+msgid "Header Login Icon Text (Logged in Mode)"
+msgstr "Tekst header login-icoon (ingelogde modus)"
+
+#: inc/options/layout.php:66 inc/options/header.php:107
+msgid "Header Search"
+msgstr "Header zoeken"
+
+#: inc/options/general.php:100
+msgid "Hide Admin Bar"
+msgstr "Beheerbalk verbergen"
+
+#: inc/options/general.php:101
+msgid "Hide Admin Bar for subscribers"
+msgstr "Beheerbalk verbergen voor abonnees"
+
+#: inc/breadcrumbs.php:258
+msgid "Home"
+msgstr "Home"
+
+#: inc/breadcrumbs.php:791
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#. Author URI of the theme
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#. URI of the theme
+msgid ""
+"https://www.radiustheme.com/downloads/classilist-classified-ads-wordpress-theme/"
+msgstr "https://www.radiustheme.com/downloads/classilist-classified-ads-wordpress-theme/"
+
+#. %s is a HTML link to the support page.
+#: classified-listing/custom/functions.php:159
+#, php-format
+msgid ""
+"If you face any issue after update, please switch to parent theme and contact with %s."
+msgstr "Als je na de update problemen ondervindt, schakel dan over naar het hoofdthema en neem contact op met %s."
+
+#: inc/options/advertisement.php:126 inc/options/advertisement.php:135
+msgid "Image"
+msgstr "Afbeelding"
+
+#: classified-listing/listing-form/gallery.php:21
+msgid "Images"
+msgstr "Afbeeldingen"
+
+#: inc/options/topbar.php:85
+msgid "Instagram"
+msgstr "Instagram"
+
+#: widgets/about.php:136
+msgid "Instagram URL"
+msgstr "Instagram-URL"
+
+#: inc/sidebar-generator.php:105 inc/sidebar-generator.php:152
+msgid "Invalid nonce"
+msgstr "Ongeldige nonce"
+
+#: template-parts/content-none.php:24
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "Het lijkt erop dat we niet kunnen vinden wat je zoekt. Misschien kan zoeken helpen."
+
+#: inc/options/layout.php:25
+msgid "Layout"
+msgstr "Layout"
+
+#: inc/options/layout.php:58 inc/options/header.php:51 inc/options/blog.php:33
+msgid "Layout 1"
+msgstr "Layout 1"
+
+#: inc/options/layout.php:59 inc/options/header.php:55 inc/options/blog.php:37
+msgid "Layout 2"
+msgstr "Layout 2"
+
+#: inc/options/layout.php:90
+msgid "Layout Defaults"
+msgstr "Standaardlayouts"
+
+#: classified-listing/single-rtcl_listing-reviews.php:122
+msgid "Leave a Review"
+msgstr "Laat een recensie achter"
+
+#: inc/options/layout.php:27 inc/options/layout.php:156
+#: inc/options/layout.php:174 inc/options/layout.php:191
+msgid "Left Sidebar"
+msgstr "Linker zijbalk"
+
+#: inc/updater/theme-updater.php:38
+msgid "License Action"
+msgstr "Licentieactie"
+
+#: inc/updater/theme-updater.php:53
+msgid "License is inactive."
+msgstr "Licentie is inactief."
+
+#: inc/updater/theme-updater.php:37
+msgid "License Key"
+msgstr "Licentiesleutel"
+
+#. %s: expiration date
+#: inc/updater/theme-updater.php:50
+#, php-format
+msgid "License key expired %s."
+msgstr "Licentiesleutel verlopen op %s."
+
+#: inc/updater/theme-updater.php:51
+msgid "License key has expired."
+msgstr "Licentiesleutel is verlopen."
+
+#: inc/updater/theme-updater.php:44
+msgid "License key is active."
+msgstr "Licentiesleutel is actief."
+
+#: inc/updater/theme-updater.php:54
+msgid "License key is disabled."
+msgstr "Licentiesleutel is uitgeschakeld."
+
+#: inc/updater/theme-updater.php:52
+msgid "License keys do not match."
+msgstr "Licentiesleutels komen niet overeen."
+
+#: inc/updater/theme-updater-admin.php:157
+msgid "License Status"
+msgstr "Licentiestatus"
+
+#: inc/updater/theme-updater.php:41 inc/updater/theme-updater.php:56
+msgid "License status is unknown."
+msgstr "Licentiestatus is onbekend."
+
+#: inc/options/general.php:36
+msgid "Light Logo"
+msgstr "Licht logo"
+
+#: inc/options/advertisement.php:142
+msgid "Link"
+msgstr "Link"
+
+#: inc/options/topbar.php:67
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: widgets/about.php:128
+msgid "Linkedin URL"
+msgstr "LinkedIn-URL"
+
+#: inc/options/listings.php:91
+msgid "List View Settings"
+msgstr "Instellingen lijstweergave"
+
+#: inc/options/listings.php:97
+msgid "List View Style"
+msgstr "Stijl lijstweergave"
+
+#: inc/options/layout.php:199
+msgid "Listing Account Page"
+msgstr "Listing-accountpagina"
+
+#: inc/options/layout.php:164
+msgid "Listing Archive"
+msgstr "Listing-archief"
+
+#: inc/options/listings.php:122
+msgid "Listing Details Settings"
+msgstr "Instellingen listingdetails"
+
+#: inc/options/advertisement.php:196
+msgid "Listing Page"
+msgstr "Listingpagina"
+
+#: inc/options/listings.php:156
+msgid "Listing Search Items"
+msgstr "Listing zoekitems"
+
+#: inc/options/listings.php:137
+msgid "Listing Search Settings"
+msgstr "Instellingen listingzoeken"
+
+#: inc/options/listings.php:143
+msgid "Listing Search Style"
+msgstr "Stijl listingzoeken"
+
+#: inc/options/listings.php:20
+msgid "Listing Settings"
+msgstr "Listinginstellingen"
+
+#: inc/options/layout.php:181
+msgid "Listing Single"
+msgstr "Enkele listing"
+
+#: classified-listing/listing-form/contact.php:166
+#: classified-listing/listing/map.php:21
+#: classified-listing/custom/seller-info.php:79
+#: classified-listing/store/custom/sidebar-store.php:91
+msgid "Location"
+msgstr "Locatie"
+
+#: inc/updater/lc-helper.php:135
+msgid "Log in to your account at RadiusTheme.com."
+msgstr "Log in op je account op RadiusTheme.com."
+
+#: classified-listing/myaccount/form-login.php:21
+#: classified-listing/myaccount/form-login.php:53
+msgid "Login"
+msgstr "Inloggen"
+
+#: inc/options/header.php:80
+msgid "Login/ Register"
+msgstr "Inloggen / Registreren"
+
+#: widgets/about.php:112
+msgid "Logo"
+msgstr "Logo"
+
+#: inc/options/general.php:45
+msgid "Logo Area Width"
+msgstr "Breedte logogebied"
+
+#: inc/options/general.php:28
+msgid "Main Logo"
+msgstr "Hoofdlogo"
+
+#: inc/options/color.php:73
+msgid "Main Menu"
+msgstr "Hoofdmenu"
+
+#: inc/options/typography.php:139
+msgid "Main Menu Items"
+msgstr "Hoofdmenu-items"
+
+#: inc/options/advertisement.php:162
+msgid "Make Link Nofollow"
+msgstr "Link nofollow maken"
+
+#: classified-listing/listing-form/contact.php:247
+msgid "Map"
+msgstr "Kaart"
+
+#: classified-listing/listing-form/information.php:148
+msgid "Max Price"
+msgstr "Maximale prijs"
+
+#: inc/options/color.php:80
+msgid "Menu Color"
+msgstr "Menukleur"
+
+#: inc/options/typography.php:145
+msgid "Menu Font"
+msgstr "Menufont"
+
+#: inc/options/color.php:87
+msgid "Menu Hover Color"
+msgstr "Menukleur bij hover"
+
+#: classified-listing/listing/actions.php:112
+msgid "Message..."
+msgstr "Bericht..."
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:268
+#, php-format
+msgid "Minute %s"
+msgstr "Minuut %s"
+
+#: inc/breadcrumbs.php:755
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: inc/breadcrumbs.php:773
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/options/listings.php:77
+msgid "Mobile"
+msgstr "Mobiel"
+
+#: inc/options/typography.php:185
+msgid "Mobile Menu"
+msgstr "Mobiel menu"
+
+#: inc/options/typography.php:191
+msgid "Mobile Menu Font"
+msgstr "Font mobiel menu"
+
+#: classified-listing/store/custom/store-contents.php:27
+msgid "Monday"
+msgstr "Maandag"
+
+#: inc/breadcrumbs.php:809 inc/breadcrumbs.php:879 inc/breadcrumbs.php:1266
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/options/header.php:88
+msgid "My Account"
+msgstr "Mijn account"
+
+#: comments.php:32 inc/sidebar-generator.php:55
+msgid "Name"
+msgstr "Naam"
+
+#: inc/updater/lc-helper.php:144
+msgid "Need a hand?"
+msgstr "Hulp nodig?"
+
+#: comments.php:73
+msgid "Newer Comments"
+msgstr "Nieuwere reacties"
+
+#: classified-listing/single-rtcl_listing-reviews.php:44
+msgid "Newer Reviews"
+msgstr "Nieuwere recensies"
+
+#: template-parts/pagination.php:53
+msgid "Next"
+msgstr "Volgende"
+
+#: classified-listing/content-single-store.php:48
+msgid "No Ratings"
+msgstr "Geen beoordelingen"
+
+#: classified-listing/custom/noresults.php:15
+msgid "No results found"
+msgstr "Geen resultaten gevonden"
+
+#: classified-listing/listing-form/price-unit.php:29
+msgid "No unit"
+msgstr "Geen eenheid"
+
+#: inc/options/advertisement.php:158
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: inc/updater/theme-updater-admin.php:161
+msgid "Not Activated"
+msgstr "Niet geactiveerd"
+
+#: inc/updater/lc-helper.php:78
+msgid "Not activated"
+msgstr "Niet geactiveerd"
+
+#: classified-listing/single-rtcl_listing-reviews.php:112
+msgid "Not that bad"
+msgstr "Niet zo slecht"
+
+#: inc/options/post.php:30 inc/options/post.php:38 inc/options/post.php:46
+#: inc/options/post.php:54 inc/options/post.php:62 inc/options/post.php:70
+#: inc/options/post.php:106 inc/options/blog.php:47 inc/options/blog.php:55
+#: inc/options/blog.php:63 inc/options/blog.php:71 inc/options/listings.php:47
+#: inc/options/listings.php:115 inc/options/listings.php:130
+msgid "Off"
+msgstr "Uit"
+
+#: classified-listing/custom/seller-info.php:36
+msgid "Offline Now"
+msgstr "Nu offline"
+
+#: comments.php:72
+msgid "Older Comments"
+msgstr "Oudere reacties"
+
+#: classified-listing/single-rtcl_listing-reviews.php:43
+msgid "Older Reviews"
+msgstr "Oudere recensies"
+
+#: inc/options/post.php:29 inc/options/post.php:37 inc/options/post.php:45
+#: inc/options/post.php:53 inc/options/post.php:61 inc/options/post.php:69
+#: inc/options/post.php:105 inc/options/blog.php:46 inc/options/blog.php:54
+#: inc/options/blog.php:62 inc/options/blog.php:70 inc/options/listings.php:46
+#: inc/options/listings.php:114 inc/options/listings.php:129
+msgid "On"
+msgstr "Aan"
+
+#: classified-listing/custom/seller-info.php:39
+msgid "Online Now"
+msgstr "Nu online"
+
+#: classified-listing/listing/business-hours.php:46
+#: classified-listing/listing/business-hours.php:59
+msgid "Open"
+msgstr "Open"
+
+#: classified-listing/listing/business-hours.php:111
+msgid "Open (24 Hours)"
+msgstr "Open (24 uur)"
+
+#: inc/options/advertisement.php:149
+msgid "Open Link in New Tab"
+msgstr "Link openen in nieuw tabblad"
+
+#: classified-listing/store/custom/store-time.php:19
+msgid "Open Now"
+msgstr "Nu open"
+
+#: classified-listing/store/custom/sidebar-store.php:43
+msgid "Open now"
+msgstr "Nu open"
+
+#: inc/updater/lc-helper.php:139
+msgid "Open RadiusTheme account"
+msgstr "RadiusTheme-account openen"
+
+#: classified-listing/listing/business-hours.php:110
+msgid "Open Today (24 Hours)"
+msgstr "Vandaag open (24 uur)"
+
+#: classified-listing/store/custom/store-time.php:25
+msgid "Open:"
+msgstr "Opening:"
+
+#: classified-listing/store/custom/store-contents.php:54
+msgid "Opening Hours"
+msgstr "Openingstijden"
+
+#: inc/sidebar-generator.php:86
+msgid "Operation failed"
+msgstr "Bewerking mislukt"
+
+#: inc/options/color.php:49
+msgid "Other Colors"
+msgstr "Andere kleuren"
+
+#: inc/options/advertisement.php:273 inc/options/layout.php:101
+msgid "Page"
+msgstr "Pagina"
+
+#. %s is the page number.
+#: inc/breadcrumbs.php:264
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: inc/helper.php:44
+msgid "Page not Found"
+msgstr "Pagina niet gevonden"
+
+#: classified-listing/myaccount/form-login.php:36
+#: classified-listing/myaccount/form-login.php:119
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: classified-listing/myaccount/form-login.php:135
+msgid "Password does not match."
+msgstr "Wachtwoord komt niet overeen."
+
+#: inc/options/footer.php:59
+msgid "Payment Images Gallery"
+msgstr "Galerij betaalafbeeldingen"
+
+#: classified-listing/single-rtcl_listing-reviews.php:109
+msgid "Perfect"
+msgstr "Perfect"
+
+#: classified-listing/store/custom/store-contents.php:78
+msgid "Permanently Closed"
+msgstr "Permanent gesloten"
+
+#: widgets/information.php:84 inc/options/topbar.php:36
+#: classified-listing/listing-form/contact.php:184
+msgid "Phone"
+msgstr "Telefoon"
+
+#: classified-listing/custom/seller-info.php:89
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+#: inc/options/topbar.php:79
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: widgets/about.php:132
+msgid "Pinterest URL"
+msgstr "Pinterest-URL"
+
+#: inc/updater/theme-updater-admin.php:503
+#, php-format
+msgid "Please %s to get update, full functionalities and customer support."
+msgstr "Gelieve %s om updates, volledige functionaliteiten en klantenondersteuning te krijgen."
+
+#. %s is the URL to the login/my account page.
+#: classified-listing/custom/seller-info.php:69
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr "Gelieve <a href='%s'>in te loggen</a> om de verkopersinformatie te bekijken."
+
+#. %s is the URL to the login/my account page.
+#: classified-listing/store/custom/sidebar-store.php:62
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the store contact."
+msgstr "Gelieve <a href='%s'>in te loggen</a> om het winkelcontact te bekijken."
+
+#: inc/updater/lc-utility.php:546
+msgid "Please activate your theme license to install demo data."
+msgstr "Activeer je themalicentie om demodata te installeren."
+
+#: inc/updater/lc-utility.php:559 inc/updater/lc-utility.php:576
+msgid "Please activate your theme license to use this plugin."
+msgstr "Activeer je themalicentie om deze plugin te gebruiken."
+
+#: functions.php:84
+#, php-format
+msgid ""
+"Please update plugin <b><i>%1$s</b></i> to the latest version otherwise some functionalities will not work properly. You can update it from <a href='%2$s'>here</a>"
+msgstr "Update de plugin <b><i>%1$s</b></i> naar de nieuwste versie, anders werken sommige functionaliteiten niet goed. Je kunt hem updaten via <a href='%2$s'>hier</a>"
+
+#: inc/options/general.php:83
+msgid ""
+"Please upload your choice of preloader image. Transparent GIF format is recommended"
+msgstr "Upload de preloader-afbeelding van je keuze. Transparant GIF-formaat wordt aanbevolen"
+
+#: inc/options/listings.php:145
+msgid "Popup"
+msgstr "Popup"
+
+#: inc/options/post.php:20
+msgid "Post Settings"
+msgstr "Berichtinstellingen"
+
+#: inc/options/layout.php:123
+msgid "Post Single"
+msgstr "Enkel bericht"
+
+#: classified-listing/custom/seller-info.php:53
+msgid "Posted By"
+msgstr "Geplaatst door"
+
+#: inc/options/general.php:74
+msgid "Preloader"
+msgstr "Preloader"
+
+#: inc/options/general.php:82
+msgid "Preloader Image"
+msgstr "Preloader-afbeelding"
+
+#: template-parts/pagination.php:52
+msgid "Previous"
+msgstr "Vorige"
+
+#: classified-listing/listing-form/information.php:124
+msgid "Price"
+msgstr "Prijs"
+
+#: classified-listing/listing-form/information.php:97
+msgid "Price Type"
+msgstr "Prijstype"
+
+#: classified-listing/listing-form/price-unit.php:24
+msgid "Price Unit"
+msgstr "Prijs eenheid"
+
+#: classified-listing/listing-form/information.php:72
+msgid "Pricing"
+msgstr "Prijzen"
+
+#: inc/general.php:87
+msgid "Primary"
+msgstr "Primair"
+
+#: inc/options/color.php:36 inc/options/color.php:51
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: classified-listing/listing-form/information.php:35
+msgid "Product Information"
+msgstr "Productinformatie"
+
+#: classified-listing/listing-form/information.php:233
+msgid "Put tags with comma \\\",\\\""
+msgstr ""
+
+#: classified-listing/custom/list-items/archive-list-2.php:120
+msgid "Quick View"
+msgstr "Snelle weergave"
+
+#: classified-listing/custom/listing-search.php:132
+msgid "Radius in Miles"
+msgstr "Straal in mijlen"
+
+#. Author of the theme
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: classified-listing/single-rtcl_listing-reviews.php:108
+msgid "Rate&hellip;"
+msgstr "Beoordeel&hellip;"
+
+#: template-parts/content.php:44 template-parts/content-alt.php:45
+msgid "Read More"
+msgstr "Lees meer"
+
+#: inc/general.php:229
+msgid "read more ..."
+msgstr "lees meer ..."
+
+#. %1$s is the URL to create a new post.
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\\\"%1$s\\\">Get started here</a>"
+msgstr ""
+
+#: classified-listing/myaccount/form-login.php:67
+#: classified-listing/myaccount/form-login.php:90
+#: classified-listing/myaccount/form-login.php:146
+msgid "Register"
+msgstr "Registreren"
+
+#: classified-listing/myaccount/form-login.php:58
+msgid "Remember Me"
+msgstr "Onthoud mij"
+
+#: classified-listing/custom/functions.php:279
+msgid "Remove from Favourites"
+msgstr "Verwijderen uit favorieten"
+
+#: inc/updater/theme-updater.php:42
+msgid "Renew?"
+msgstr "Vernieuwen?"
+
+#: comments.php:61
+msgid "Reply"
+msgstr "Beantwoorden"
+
+#: classified-listing/listing/actions.php:64
+#: classified-listing/listing/actions.php:66
+#: classified-listing/listing/actions.php:106
+msgid "Report Abuse"
+msgstr "Misbruik melden"
+
+#: inc/options/header.php:28
+msgid "Responsive Header Screen Width"
+msgstr "Schermbreedte responsive header"
+
+#: classified-listing/single-rtcl_listing-reviews.php:37
+msgid "Review"
+msgstr "Recensie"
+
+#: classified-listing/single-rtcl_listing-reviews.php:106
+msgid "Review Title"
+msgstr "Recensietitel"
+
+#: classified-listing/single-rtcl_listing-reviews.php:37
+msgid "Reviews"
+msgstr "Recensies"
+
+#: classified-listing/single-rtcl_listing-reviews.php:65
+msgid "Reviews are closed."
+msgstr "Recensies zijn gesloten."
+
+#: classified-listing/single-rtcl_listing-reviews.php:45
+msgid "Reviews navigation"
+msgstr "Navigatie recensies"
+
+#: inc/options/layout.php:29 inc/options/layout.php:158
+#: inc/options/layout.php:176 inc/options/layout.php:193
+msgid "Right Sidebar"
+msgstr "Rechter zijbalk"
+
+#: inc/options/topbar.php:91
+msgid "RSS"
+msgstr "RSS"
+
+#: widgets/about.php:144
+msgid "Rss Feed URL"
+msgstr "RSS-feed-URL"
+
+#: classified-listing/store/custom/store-contents.php:32
+msgid "Saturday"
+msgstr "Zaterdag"
+
+#: inc/updater/theme-updater-admin.php:181
+msgid "Save Changes"
+msgstr "Wijzigingen opslaan"
+
+#: inc/options/header.php:29
+msgid "Screen width in which mobile menu activated. Recommended value is: 992"
+msgstr "Schermbreedte waarop het mobiele menu wordt geactiveerd. Aanbevolen waarde: 992"
+
+#: classified-listing/custom/listing-search.php:225
+msgid "Search"
+msgstr "Zoeken"
+
+#: searchform.php:11
+msgid "Search here ..."
+msgstr "Zoek hier ..."
+
+#: inc/options/layout.php:134
+msgid "Search Layout"
+msgstr "Zoeklayout"
+
+#: inc/helper.php:46 template-parts/content-top.php:38
+msgid "Search Results for : "
+msgstr "Zoekresultaten voor : "
+
+#. %s is the search query.
+#: inc/breadcrumbs.php:262
+#, php-format
+msgid "Search results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: inc/options/color.php:43
+msgid "Secondery Color"
+msgstr "Secundaire kleur"
+
+#: classified-listing/listing-form/contact.php:173
+#: classified-listing/custom/listing-search.php:118
+msgid "Select a location"
+msgstr "Selecteer een locatie"
+
+#: classified-listing/listing-form/category.php:53
+#: classified-listing/custom/listing-search.php:30
+msgid "Select Category"
+msgstr "Selecteer categorie"
+
+#: classified-listing/listing-form/contact.php:56
+#: classified-listing/listing-form/contact.php:87
+#: classified-listing/listing-form/contact.php:117
+#: classified-listing/custom/listing-search.php:29
+msgid "Select Location"
+msgstr "Selecteer locatie"
+
+#: classified-listing/listing-form/category.php:24
+#: classified-listing/listing-form/category.php:33
+#: classified-listing/custom/listing-search.php:31
+msgid "Select Type"
+msgstr "Selecteer type"
+
+#: inc/options/color.php:55
+msgid ""
+"Selecting Primary Color will hide some color options from the below settings and replace them with Primary/Secondery Color"
+msgstr "Het selecteren van de primaire kleur verbergt sommige kleuropties in de onderstaande instellingen en vervangt ze door primaire/secundaire kleur"
+
+#: classified-listing/custom/seller-info.php:43
+msgid "Seller Information"
+msgstr "Verkopersinformatie"
+
+#: template-parts/content-single.php:61
+msgid "Share"
+msgstr "Delen"
+
+#: classified-listing/listing/actions.php:91
+msgid "Share this Ad:"
+msgstr "Deel deze advertentie:"
+
+#: inc/options/header.php:42
+msgid "Show header at the top when scrolling down"
+msgstr "Toon header bovenaan bij naar beneden scrollen"
+
+#. %1$d is the first result number, %2$d is the last result number, %3$d is the total results count.
+#: classified-listing/custom/functions.php:433
+#, php-format
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr "Toont %1$d–%2$d van %3$d resultaten"
+
+#: classified-listing/custom/functions.php:436
+msgid "Showing 0 result"
+msgstr "Toont 0 resultaten"
+
+#: classified-listing/custom/functions.php:430
+msgid "Showing 1 result"
+msgstr "Toont 1 resultaat"
+
+#: inc/helper.php:195 inc/general.php:99
+msgid "Sidebar"
+msgstr "Zijbalk"
+
+#: inc/general.php:129
+msgid "Sidebar - My Account"
+msgstr "Zijbalk - Mijn account"
+
+#: inc/woocommerce.php:52
+msgid "Sidebar - WooCommerce"
+msgstr "Zijbalk - WooCommerce"
+
+#: inc/sidebar-generator.php:146
+msgid "Sidebar ID not found"
+msgstr "Zijbalk-ID niet gevonden"
+
+#: inc/sidebar-generator.php:99
+msgid "Sidebar name can't be empty"
+msgstr "Zijbalknaam mag niet leeg zijn"
+
+#: inc/sidebar-generator.php:112
+msgid ""
+"Sidebar with the same name already exists. Please choose a different name"
+msgstr "Er bestaat al een zijbalk met dezelfde naam. Kies een andere naam"
+
+#: inc/options/advertisement.php:218
+msgid "Single Listing Page"
+msgstr "Enkele listingpagina"
+
+#: inc/options/advertisement.php:254
+msgid "Single Post"
+msgstr "Enkel bericht"
+
+#: inc/updater/theme-updater.php:55
+msgid "Site is inactive."
+msgstr "Site is inactief."
+
+#: inc/options/color.php:29
+msgid "Sitewide Colors"
+msgstr "Sitebrede kleuren"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "Ga naar inhoud"
+
+#: classified-listing/listing-form/social-profiles.php:26
+msgid "Social Profiles"
+msgstr "Sociale profielen"
+
+#: inc/options/post.php:77
+msgid "Social Sharing Icons"
+msgstr "Iconen voor sociaal delen"
+
+#: inc/scripts.php:159
+msgid "Sold Out"
+msgstr "Uitverkocht"
+
+#: template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Sorry, er kwam niets overeen met je zoektermen. Probeer het opnieuw met andere trefwoorden."
+
+#: classified-listing/listing/business-hours.php:35
+msgid "Sorry, we are currently closed."
+msgstr "Sorry, we zijn momenteel gesloten."
+
+#: inc/options/listings.php:146
+msgid "Standard"
+msgstr "Standaard"
+
+#: inc/options/header.php:38
+msgid "Sticky Header"
+msgstr "Sticky header"
+
+#: template-parts/content-top.php:26
+msgid "Store"
+msgstr "Winkel"
+
+#: classified-listing/store-link-to-user-information.php:14
+#: classified-listing/store/custom/sidebar-store.php:57
+msgid "Store Information"
+msgstr "Winkelinformatie"
+
+#: inc/options/listings.php:37 inc/options/listings.php:99
+msgid "Style 1"
+msgstr "Stijl 1"
+
+#: inc/options/listings.php:38 inc/options/listings.php:100
+msgid "Style 2"
+msgstr "Stijl 2"
+
+#: classified-listing/listing-form/category.php:84
+msgid "Sub Category"
+msgstr "Subcategorie"
+
+#: inc/options/color.php:94
+msgid "Sub Menu"
+msgstr "Submenu"
+
+#: inc/options/typography.php:162
+msgid "Sub Menu Items"
+msgstr "Submenu-items"
+
+#: inc/options/color.php:101
+msgid "Submenu Color"
+msgstr "Submenukleur"
+
+#: inc/options/typography.php:168
+msgid "Submenu Font"
+msgstr "Submenufont"
+
+#: inc/options/color.php:115
+msgid "Submenu Hover Background Color"
+msgstr "Achtergrondkleur submenu bij hover"
+
+#: inc/options/color.php:108
+msgid "Submenu Hover Color"
+msgstr "Submenukleur bij hover"
+
+#: classified-listing/single-rtcl_listing-reviews.php:94
+#: classified-listing/listing/actions.php:118
+msgid "Submit"
+msgstr "Verzenden"
+
+#: classified-listing/listing-form/form.php:19
+msgid "Submit Listing"
+msgstr "Listing indienen"
+
+#: classified-listing/store/custom/store-contents.php:26
+msgid "Sunday"
+msgstr "Zondag"
+
+#: inc/options/advertisement.php:170
+msgid "Supports: Shortcode, Adsense, Text, HTML, Scripts"
+msgstr "Ondersteunt: Shortcode, Adsense, Tekst, HTML, Scripts"
+
+#: inc/options/listings.php:65
+msgid "Tablet"
+msgstr "Tablet"
+
+#: classified-listing/listing-form/information.php:221
+msgid "Tags"
+msgstr "Tags"
+
+#: inc/updater/theme-updater.php:35 inc/updater/lc-helper.php:48
+#: inc/updater/lc-helper.php:49 inc/updater/lc-helper.php:75
+msgid "Theme License"
+msgstr "Themalicentie"
+
+#: inc/options/init.php:38 inc/options/init.php:39
+msgid "Theme Options"
+msgstr "Thema-opties"
+
+#: classified-listing/listing-form/terms-conditions.php:36
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+#: inc/options/footer.php:60
+msgid "This payment image sise should be 34×21px"
+msgstr "De grootte van deze betaalafbeelding moet 34×21px zijn"
+
+#: classified-listing/listing-form/contact.php:221
+msgid "This will be your username"
+msgstr "Dit wordt je gebruikersnaam"
+
+#: classified-listing/store/custom/store-contents.php:30
+msgid "Thursday"
+msgstr "Donderdag"
+
+#: inc/options/topbar.php:97
+msgid "Tiktok"
+msgstr "TikTok"
+
+#: inc/options/general.php:66
+msgid "Time Format"
+msgstr "Tijdformaat"
+
+#: widgets/information.php:76 widgets/about.php:108
+#: classified-listing/listing-form/information.php:39
+msgid "Title"
+msgstr "Titel"
+
+#: classified-listing/custom/functions.php:291
+msgid "Top Ad"
+msgstr "Topadvertentie"
+
+#: inc/options/topbar.php:28 inc/options/layout.php:44 inc/options/color.php:60
+msgid "Top Bar"
+msgstr "Topbalk"
+
+#: inc/options/topbar.php:20
+msgid "Top Bar & Socials"
+msgstr "Topbalk & socials"
+
+#: inc/options/color.php:67
+msgid "Top Bar Background Color"
+msgstr "Achtergrondkleur topbalk"
+
+#: classified-listing/store/custom/store-contents.php:28
+msgid "Tuesday"
+msgstr "Dinsdag"
+
+#: inc/options/topbar.php:61
+msgid "Twitter"
+msgstr "Twitter"
+
+#: widgets/about.php:124
+msgid "Twitter URL"
+msgstr "Twitter-URL"
+
+#: inc/options/typography.php:20
+msgid "Typography"
+msgstr "Typografie"
+
+#: inc/updater/theme-updater.php:43
+msgid "unlimited"
+msgstr "onbeperkt"
+
+#: classified-listing/listing-form/form.php:19
+msgid "Update Listing"
+msgstr "Listing bijwerken"
+
+#: inc/updater/theme-updater.php:57
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "Bij het updaten van dit thema gaan alle aanpassingen die je hebt gemaakt verloren. 'Annuleren' om te stoppen, 'OK' om te updaten."
+
+#: inc/options/general.php:40
+msgid "Used when Transparent Header is enabled"
+msgstr "Gebruikt wanneer Transparante header is ingeschakeld"
+
+#: inc/options/header.php:89
+msgid "Used when user is logged in"
+msgstr "Gebruikt wanneer gebruiker is ingelogd"
+
+#: inc/options/header.php:81
+msgid "Used when user isn't logged in"
+msgstr "Gebruikt wanneer gebruiker niet is ingelogd"
+
+#: classified-listing/myaccount/form-login.php:98
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: classified-listing/myaccount/form-login.php:104
+msgid "Username cannot be changed."
+msgstr "Gebruikersnaam kan niet worden gewijzigd."
+
+#: classified-listing/myaccount/form-login.php:26
+msgid "Username or E-mail"
+msgstr "Gebruikersnaam of e-mail"
+
+#: classified-listing/single-rtcl_listing-reviews.php:113
+msgid "Very poor"
+msgstr "Zeer slecht"
+
+#: classified-listing/custom/seller-info.php:119
+#: classified-listing/store/custom/sidebar-store.php:130
+msgid "Visit Website"
+msgstr "Bezoek website"
+
+#: classified-listing/listing/business-hours.php:33
+msgid "We are currently open."
+msgstr "We zijn momenteel open."
+
+#: inc/options/error.php:37
+msgid "We can't find the page you're looking for"
+msgstr "We kunnen de pagina die je zoekt niet vinden"
+
+#: comments.php:38 classified-listing/listing-form/contact.php:231
+msgid "Website"
+msgstr "Website"
+
+#: classified-listing/store/custom/store-contents.php:29
+msgid "Wednesday"
+msgstr "Woensdag"
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:270
+#, php-format
+msgid "Week %s"
+msgstr "Week %s"
+
+#: inc/breadcrumbs.php:839
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: classified-listing/listing-form/contact.php:198
+#: classified-listing/custom/seller-info.php:99
+#: classified-listing/store/custom/sidebar-store.php:111
+msgid "Whatsapp Number"
+msgstr "WhatsApp-nummer"
+
+#: inc/updater/lc-helper.php:133
+msgid "Where's my license key?"
+msgstr "Waar is mijn licentiesleutel?"
+
+#: inc/options/general.php:46
+msgid ""
+"Width is defined by the number of bootstrap columns. Please note, navigation menu width will be decreased with the increase of logo width"
+msgstr "Breedte wordt bepaald door het aantal bootstrap-kolommen. Let op: de breedte van het navigatiemenu neemt af bij toename van de logobreedte"
+
+#: inc/breadcrumbs.php:808 inc/breadcrumbs.php:838 inc/breadcrumbs.php:878
+#: inc/breadcrumbs.php:906 inc/breadcrumbs.php:1261
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. 1: number of active sites, 2: total allowed sites
+#: inc/updater/theme-updater.php:48
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "Je hebt %1$s / %2$s sites geactiveerd."
+
+#: classified-listing/custom/functions.php:149
+msgid ""
+"You have to must update <strong>Classified Listing Pro</strong> plugin, otherwise functionality will not work properly."
+msgstr "Je moet de plugin <strong>Classified Listing Pro</strong> updaten, anders werkt de functionaliteit niet goed."
+
+#. %s is the URL to the login page.
+#: classified-listing/single-rtcl_listing-reviews.php:102
+#, php-format
+msgid "You must be <a href=\\\"%s\\\">logged in</a> to post a review."
+msgstr ""
+
+#: template-parts/comments-callback.php:60
+msgid "Your comment is awaiting moderation."
+msgstr "Je reactie wacht op moderatie."
+
+#: classified-listing/listing/actions.php:111
+msgid "Your Complaint"
+msgstr "Je klacht"
+
+#: classified-listing/single-rtcl_listing-reviews.php:91
+msgid "Your Email"
+msgstr "Je e-mail"
+
+#: classified-listing/single-rtcl_listing-reviews.php:89
+msgid "Your Name"
+msgstr "Je naam"
+
+#: classified-listing/single-rtcl_listing-reviews.php:107
+msgid "Your Rating"
+msgstr "Je beoordeling"
+
+#: classified-listing/single-rtcl_listing-reviews.php:117
+msgid "Your Review"
+msgstr "Je recensie"
+
+#: classified-listing/listing/review.php:52
+msgid "Your review is awaiting moderation."
+msgstr "Je recensie wacht op moderatie."
+
+#: inc/options/topbar.php:73
+msgid "Youtube"
+msgstr "YouTube"
+
+#: widgets/about.php:140
+msgid "YouTube URL"
+msgstr "YouTube-URL"
+
+#: classified-listing/listing-form/contact.php:138
+msgid "Zip Code"
+msgstr "Postcode"

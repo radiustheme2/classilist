@@ -1,0 +1,1973 @@
+# Arabic translation for ClassiList
+# Domain: classilist
+# Generated for conversion to .po / .mo / .l10n.php
+
+msgid ""
+msgstr ""
+"Project-Id-Version: ClassiList\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-12 07:11+0000\n"
+"PO-Revision-Date: 2026-08-18 15:50+0000\n"
+"Last-Translator: Grok\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Grok\n"
+"X-Domain: classilist\n"
+
+#. %1$s is time ago, %2$s is the date, %3$s is the time.
+#: template-parts/comments-callback.php:39
+#, php-format
+msgid " %1$s ago / %2$s @ %3$s"
+msgstr " منذ %1$s / %2$s @ %3$s"
+
+#. %1$s is the number of views.
+#: classified-listing/custom/list-items/archive-list-2.php:105
+#: classified-listing/custom/list-items/archive-list-1.php:115
+#: classified-listing/custom/list-items/archive-grid-2.php:148
+#: classified-listing/custom/list-items/archive-grid-1.php:109
+#, php-format
+msgid "%1$s Views"
+msgstr "%1$s مشاهدة"
+
+#. %s is the number of comments.
+#: comments.php:24
+#, php-format
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] "%s تعليق"
+msgstr[1] "%s تعليق"
+msgstr[2] "%s تعليقات"
+msgstr[3] "%s تعليقات"
+msgstr[4] "%s تعليقات"
+msgstr[5] "%s تعليقات"
+
+#. %s is the number of views.
+#: classified-listing/listing/actions.php:40
+#, php-format
+msgid "%s views"
+msgstr "%s مشاهدات"
+
+#: classified-listing/custom/functions.php:633
+#: classified-listing/custom/functions.php:652
+msgid "(Show)"
+msgstr "(إظهار)"
+
+#: inc/options/listings.php:55 inc/options/listings.php:67
+#: inc/options/listings.php:79 inc/options/general.php:48
+msgid "1 Column"
+msgstr "عمود واحد"
+
+#: inc/options/general.php:67
+msgid "12 Hour"
+msgstr "12 ساعة"
+
+#: inc/options/listings.php:56 inc/options/listings.php:68
+#: inc/options/listings.php:80 inc/options/general.php:49
+msgid "2 Column"
+msgstr "عمودان"
+
+#: inc/options/general.php:68
+msgid "24 Hour"
+msgstr "24 ساعة"
+
+#: inc/options/listings.php:57 inc/options/listings.php:69
+#: inc/options/listings.php:81 inc/options/general.php:50
+msgid "3 Column"
+msgstr "3 أعمدة"
+
+#: inc/options/listings.php:58 inc/options/listings.php:70
+#: inc/options/listings.php:82 inc/options/general.php:51
+msgid "4 Column"
+msgstr "4 أعمدة"
+
+#: 404.php:22
+msgid "404"
+msgstr "404"
+
+#: inc/breadcrumbs.php:259
+msgid "404 Not Found"
+msgstr "404 غير موجود"
+
+#. 1: Theme name, 2: Version, 3: Changelog URL, 4: Changelog title, 5: Update URL, 6: Update onclick
+#: inc/updater/theme-updater.php:59
+#, php-format
+msgid ""
+"<strong>%1$s %2$s</strong> is available. <a href=\\\"%3$s\\\" class=\\\"thickbox\\\" title=\\\"%4$s\\\">Check out what's new</a> or <a href=\\\"%5$s\\\"%6$s>update now</a>."
+msgstr ""
+
+#: template-parts/content-single.php:72
+msgid "About Author"
+msgstr "عن المؤلف"
+
+#. %s: theme name
+#: inc/updater/lc-helper.php:91
+#, php-format
+msgid ""
+"Activate %s to unlock one-click demo import, automatic updates, bundled plugin installation, and premium support."
+msgstr "فعّل %s لفتح استيراد العرض التوضيحي بنقرة واحدة، والتحديثات التلقائية، وتثبيت الإضافات المرفقة، والدعم المتميز."
+
+#: inc/options/advertisement.php:116
+msgid "Activate Ad"
+msgstr "تفعيل الإعلان"
+
+#: inc/updater/theme-updater.php:40
+msgid "Activate License"
+msgstr "تفعيل الترخيص"
+
+#: inc/updater/theme-updater-admin.php:500
+msgid "activate your theme license"
+msgstr "فعّل ترخيص السمة الخاص بك"
+
+#: inc/updater/lc-helper.php:78 inc/updater/theme-updater-admin.php:159
+msgid "Activated"
+msgstr "مفعّل"
+
+#: inc/updater/lc-helper.php:145
+msgid ""
+"Activation issues are usually a mistyped code or a license already in use on another domain."
+msgstr "مشاكل التفعيل عادة ما تكون بسبب كود مكتوب بشكل خاطئ أو ترخيص مستخدم بالفعل على نطاق آخر."
+
+#: inc/options/color.php:144
+msgid "Active Breadcrumb Color"
+msgstr "لون مسار التنقل النشط"
+
+#: inc/options/advertisement.php:124
+#: classified-listing/listing-form/category.php:28
+msgid "Ad Type"
+msgstr "نوع الإعلان"
+
+#: inc/sidebar-generator.php:57
+msgid "Add"
+msgstr "إضافة"
+
+#: template-parts/header/header.php:75
+msgid "Add a menu"
+msgstr "إضافة قائمة"
+
+#: inc/sidebar-generator.php:48
+msgid "Add New Sidebar"
+msgstr "إضافة شريط جانبي جديد"
+
+#: classified-listing/listing/actions.php:58
+msgid "Add to Compare"
+msgstr "إضافة للمقارنة"
+
+#: widgets/information.php:80 inc/options/topbar.php:49
+#: classified-listing/listing-form/contact.php:151
+msgid "Address"
+msgstr "العنوان"
+
+#: inc/options/advertisement.php:32 inc/options/advertisement.php:33
+msgid "Advertisement Options"
+msgstr "خيارات الإعلانات"
+
+#: inc/options/advertisement.php:179
+msgid "Advertisements"
+msgstr "الإعلانات"
+
+#: inc/options/advertisement.php:191
+msgid "After All Listing Items"
+msgstr "بعد جميع عناصر القائمة"
+
+#: inc/options/advertisement.php:211
+msgid "After Item Block"
+msgstr "بعد كتلة العنصر"
+
+#: inc/options/advertisement.php:210
+msgid "After Item Contents"
+msgstr "بعد محتوى العنصر"
+
+#: inc/options/advertisement.php:212
+msgid "After Location Block"
+msgstr "بعد كتلة الموقع"
+
+#: inc/options/advertisement.php:268
+msgid "After Page Contents"
+msgstr "بعد محتوى الصفحة"
+
+#: inc/options/advertisement.php:249
+msgid "After Post Contents"
+msgstr "بعد محتوى المنشور"
+
+#: inc/options/advertisement.php:213
+msgid "After Related Items Block"
+msgstr "بعد كتلة العناصر ذات الصلة"
+
+#: inc/options/advertisement.php:188 inc/options/advertisement.php:207
+#: inc/options/advertisement.php:229 inc/options/advertisement.php:246
+#: inc/options/advertisement.php:265
+msgid "After Sidebar"
+msgstr "بعد الشريط الجانبي"
+
+#. %s is the store name.
+#: classified-listing/store/custom/store-contents.php:90
+#, php-format
+msgid "All Ads from %s"
+msgstr "جميع إعلانات %s"
+
+#: inc/helper.php:51 template-parts/content-top.php:31
+msgid "All Posts"
+msgstr "جميع المنشورات"
+
+#: classified-listing/store/custom/store-contents.php:81
+#: classified-listing/store/custom/store-time.php:41
+msgid "Always Open"
+msgstr "مفتوح دائمًا"
+
+#: inc/breadcrumbs.php:260
+msgid "Archives"
+msgstr "الأرشيف"
+
+#: inc/sidebar-generator.php:85
+msgid "Are you sure you want to remove this custom sidebar"
+msgstr "هل أنت متأكد من أنك تريد إزالة هذا الشريط الجانبي المخصص؟"
+
+#: inc/options/listings.php:147
+msgid "Auto Suggestion"
+msgstr "اقتراح تلقائي"
+
+#: classified-listing/single-rtcl_listing-reviews.php:111
+msgid "Average"
+msgstr "متوسط"
+
+#: inc/options/general.php:92
+msgid "Back to Top Arrow"
+msgstr "سهم العودة للأعلى"
+
+#: inc/options/advertisement.php:190
+msgid "Before All Listing Items"
+msgstr "قبل جميع عناصر القائمة"
+
+#: inc/options/advertisement.php:209
+msgid "Before Item Contents"
+msgstr "قبل محتوى العنصر"
+
+#: inc/options/advertisement.php:267
+msgid "Before Page Contents"
+msgstr "قبل محتوى الصفحة"
+
+#: inc/options/advertisement.php:248
+msgid "Before Post Contents"
+msgstr "قبل محتوى المنشور"
+
+#: inc/options/advertisement.php:187 inc/options/advertisement.php:206
+#: inc/options/advertisement.php:228 inc/options/advertisement.php:245
+#: inc/options/advertisement.php:264
+msgid "Before Sidebar"
+msgstr "قبل الشريط الجانبي"
+
+#. Name of the template
+#: templates/blank.php:2
+msgid "Blank Template"
+msgstr "قالب فارغ"
+
+#: inc/options/layout.php:112
+msgid "Blog / Archive"
+msgstr "المدونة / الأرشيف"
+
+#: inc/options/blog.php:21
+msgid "Blog Settings"
+msgstr "إعدادات المدونة"
+
+#: inc/options/advertisement.php:235
+msgid "Blog/Archive"
+msgstr "المدونة/الأرشيف"
+
+#: inc/options/blog.php:29
+msgid "Blog/Archive Layout"
+msgstr "تخطيط المدونة/الأرشيف"
+
+#: inc/options/typography.php:27
+msgid "Body"
+msgstr "الجسم"
+
+#: classified-listing/custom/functions.php:126
+msgid "Booking Button"
+msgstr "زر الحجز"
+
+#: inc/options/layout.php:77 inc/options/header.php:115
+#: inc/options/color.php:122 inc/options/general.php:58
+msgid "Breadcrumb"
+msgstr "مسار التنقل"
+
+#: inc/options/color.php:129
+msgid "Breadcrumb Link Color"
+msgstr "لون رابط مسار التنقل"
+
+#: inc/options/color.php:136
+msgid "Breadcrumb Link Hover Color"
+msgstr "لون رابط مسار التنقل عند التمرير"
+
+#: inc/options/color.php:151
+msgid "Breadcrumb Seperator Color"
+msgstr "لون فاصل مسار التنقل"
+
+#: inc/breadcrumbs.php:257
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "مسارات التنقل"
+
+#: inc/breadcrumbs.php:256
+msgid "Browse:"
+msgstr "تصفح:"
+
+#: classified-listing/listing/business-hours.php:27
+msgid "Business Hours"
+msgstr "ساعات العمل"
+
+#: inc/options/error.php:42
+msgid "Button Text"
+msgstr "نص الزر"
+
+#: template-parts/content-single.php:36 template-parts/content.php:33
+#: template-parts/content-alt.php:34
+msgid "By"
+msgstr "بواسطة"
+
+#: inc/updater/lc-helper.php:113
+msgid "by RadiusTheme"
+msgstr "بواسطة RadiusTheme"
+
+#: classified-listing/custom/functions.php:658
+msgid "Call on Telegram"
+msgstr "اتصل عبر تيليجرام"
+
+#: classified-listing/listing-form/category.php:59
+#: classified-listing/listing/custom-fields.php:27
+msgid "Category"
+msgstr "الفئة"
+
+#. %s is the character limit number.
+#: classified-listing/listing-form/information.php:53
+#: classified-listing/listing-form/information.php:207
+#, php-format
+msgid "Character limit <span class='target-limit'>%s</span>"
+msgstr "حد الأحرف <span class='target-limit'>%s</span>"
+
+#: template-parts/header/header.php:66
+msgid "Chat"
+msgstr "دردشة"
+
+#: classified-listing/custom/seller-info.php:139
+msgid "Chat with Seller"
+msgstr "الدردشة مع البائع"
+
+#: classified-listing/listing/actions.php:77
+#: classified-listing/listing/actions.php:83
+msgid "Claim to this listing"
+msgstr "المطالبة بهذا الإعلان"
+
+#: inc/updater/lc-helper.php:113
+msgid "Classified Ads WordPress Theme"
+msgstr "سمة ووردبريس للإعلانات المبوبة"
+
+#. Name of the theme
+msgid "ClassiList"
+msgstr "ClassiList"
+
+#. Description of the theme
+msgid ""
+"ClassiList is a clean and modern WordPress Theme best suited for Classified Listing. This theme comes with all necessary features and pages for a Classified Listing website."
+msgstr "ClassiList هي سمة ووردبريس نظيفة وحديثة مناسبة تمامًا للإعلانات المبوبة. تأتي هذه السمة بجميع الميزات والصفحات اللازمة لموقع إعلانات مبوبة."
+
+#. Base ID
+#: widgets/about.php:22 widgets/about.php:23
+msgid "ClassiList: About"
+msgstr "ClassiList: حول"
+
+#. Base ID
+#: widgets/information.php:22 widgets/information.php:23
+msgid "ClassiList: Contact Info"
+msgstr "ClassiList: معلومات الاتصال"
+
+#: classified-listing/custom/seller-info.php:120
+msgid "Click Here"
+msgstr "انقر هنا"
+
+#: classified-listing/store/custom/store-phone.php:22
+msgid "Click to reveal phone number"
+msgstr "انقر لإظهار رقم الهاتف"
+
+#: classified-listing/listing/business-hours.php:48
+#: classified-listing/listing/business-hours.php:61
+msgid "Close"
+msgstr "إغلاق"
+
+#: classified-listing/store/custom/sidebar-store.php:37
+msgid "Close now"
+msgstr "إغلاق الآن"
+
+#: classified-listing/store/custom/store-time.php:32
+msgid "Close:"
+msgstr "الإغلاق:"
+
+#: classified-listing/listing/business-hours.php:94
+#: classified-listing/store/custom/store-contents.php:71
+msgid "Closed"
+msgstr "مغلق"
+
+#: classified-listing/store/custom/store-time.php:19
+msgid "Closed Now"
+msgstr "مغلق الآن"
+
+#: classified-listing/listing/business-hours.php:93
+#: classified-listing/store/custom/store-time.php:38
+msgid "Closed Today"
+msgstr "مغلق اليوم"
+
+#: inc/options/color.php:21
+msgid "Colors"
+msgstr "الألوان"
+
+#: template-parts/content-single.php:19 template-parts/content.php:18
+#: template-parts/content-alt.php:19
+msgid "Comment"
+msgstr "تعليق"
+
+#: comments.php:44
+msgid "Comment *"
+msgstr "تعليق *"
+
+#. %s is the page number.
+#: inc/breadcrumbs.php:266
+#, php-format
+msgid "Comment Page %s"
+msgstr "صفحة التعليقات %s"
+
+#: template-parts/content-single.php:19 template-parts/content.php:18
+#: template-parts/content-alt.php:19
+msgid "Comments"
+msgstr "التعليقات"
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr "التعليقات مغلقة."
+
+#: classified-listing/listing/actions.php:57
+#: classified-listing/custom/list-items/archive-list-2.php:135
+msgid "Compare"
+msgstr "مقارنة"
+
+#: classified-listing/myaccount/form-login.php:128
+msgid "Confirm Password"
+msgstr "تأكيد كلمة المرور"
+
+#: classified-listing/listing-form/contact.php:42
+msgid "Contact Details"
+msgstr "تفاصيل الاتصال"
+
+#: widgets/information.php:66
+msgid "Contact Info"
+msgstr "معلومات الاتصال"
+
+#: classified-listing/store/custom/sidebar-store.php:101
+msgid "Contact Number"
+msgstr "رقم الاتصال"
+
+#: inc/updater/lc-helper.php:148
+msgid "Contact Support Center"
+msgstr "اتصل بمركز الدعم"
+
+#: inc/updater/lc-helper.php:137
+#, php-format
+msgid "Copy the key for %s."
+msgstr "انسخ المفتاح لـ %s."
+
+#: inc/options/color.php:199 inc/options/footer.php:29
+msgid "Copyright Area"
+msgstr "منطقة حقوق النشر"
+
+#: inc/options/color.php:206
+msgid "Copyright Background Color"
+msgstr "لون خلفية حقوق النشر"
+
+#: inc/options/footer.php:43
+msgid "Copyright Text"
+msgstr "نص حقوق النشر"
+
+#: inc/options/color.php:213
+msgid "Copyright Text Color"
+msgstr "لون نص حقوق النشر"
+
+#: classified-listing/multi-currency/price-currency.php:23
+msgid "Currency"
+msgstr "العملة"
+
+#: inc/options/color.php:52
+msgid "Custom"
+msgstr "مخصص"
+
+#: inc/options/advertisement.php:127 inc/options/advertisement.php:168
+msgid "Custom Code"
+msgstr "كود مخصص"
+
+#: inc/options/listings.php:45
+msgid "Custom fileds on grid view"
+msgstr "حقول مخصصة في عرض الشبكة"
+
+#: inc/options/listings.php:113
+msgid "Custom fileds on list view"
+msgstr "حقول مخصصة في عرض القائمة"
+
+#: inc/options/layout.php:36
+msgid "Custom Sidebar"
+msgstr "شريط جانبي مخصص"
+
+#: inc/breadcrumbs.php:810 inc/breadcrumbs.php:1271
+msgctxt "daily archives date format"
+msgid "j"
+msgstr "j"
+
+#: inc/updater/theme-updater.php:39
+msgid "Deactivate License"
+msgstr "إلغاء تفعيل الترخيص"
+
+#: inc/options/layout.php:46 inc/options/layout.php:57
+#: inc/options/layout.php:68 inc/options/layout.php:79
+msgid "Default"
+msgstr "افتراضي"
+
+#: inc/options/listings.php:148
+msgid "Dependency Selection"
+msgstr "اختيار التبعية"
+
+#: widgets/about.php:116 classified-listing/listing-form/information.php:181
+msgid "Description"
+msgstr "الوصف"
+
+#: inc/options/listings.php:53
+msgid "Desktop"
+msgstr "سطح المكتب"
+
+#: classified-listing/store/custom/store-contents.php:50
+msgid "Details"
+msgstr "التفاصيل"
+
+#: inc/options/topbar.php:30 inc/options/advertisement.php:118
+#: inc/options/advertisement.php:151 inc/options/advertisement.php:160
+#: inc/options/layout.php:48 inc/options/layout.php:70
+#: inc/options/layout.php:81 inc/options/header.php:40
+#: inc/options/header.php:65 inc/options/header.php:73
+#: inc/options/header.php:109 inc/options/header.php:117
+#: inc/options/footer.php:37 inc/options/footer.php:52
+#: inc/options/general.php:60 inc/options/general.php:76
+#: inc/options/general.php:94 inc/options/general.php:103
+msgid "Disabled"
+msgstr "معطل"
+
+#: inc/options/post.php:104
+msgid "Display About Author"
+msgstr "عرض عن المؤلف"
+
+#: inc/options/post.php:36 inc/options/blog.php:53
+msgid "Display Author Name"
+msgstr "عرض اسم المؤلف"
+
+#: inc/options/post.php:44 inc/options/blog.php:61
+msgid "Display Categories"
+msgstr "عرض الفئات"
+
+#: inc/options/post.php:52 inc/options/blog.php:69
+msgid "Display Comment Number"
+msgstr "عرض عدد التعليقات"
+
+#: inc/options/footer.php:35
+msgid "Display Copyright Area"
+msgstr "عرض منطقة حقوق النشر"
+
+#: inc/options/blog.php:45
+msgid "Display Date"
+msgstr "عرض التاريخ"
+
+#: inc/options/footer.php:50
+msgid "Display Payment Icons"
+msgstr "عرض أيقونات الدفع"
+
+#: inc/options/post.php:28
+msgid "Display Post Date"
+msgstr "عرض تاريخ المنشور"
+
+#: inc/options/listings.php:128
+msgid "Display Related Listing"
+msgstr "عرض الإعلانات ذات الصلة"
+
+#: inc/options/post.php:68
+msgid "Display Social Sharing"
+msgstr "عرض المشاركة الاجتماعية"
+
+#: inc/options/post.php:60
+msgid "Display Tags"
+msgstr "عرض العلامات"
+
+#: classified-listing/listing-form/contact.php:257
+msgid "Don't show the Map"
+msgstr "عدم إظهار الخريطة"
+
+#: comments.php:35 widgets/information.php:92 inc/options/topbar.php:42
+#: classified-listing/listing-form/contact.php:211
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: classified-listing/custom/seller-info.php:109
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: classified-listing/myaccount/form-login.php:109
+msgid "Email address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: classified-listing/custom/seller-info.php:148
+msgid "Email to Seller"
+msgstr "إرسال بريد إلى البائع"
+
+#: classified-listing/store/custom/sidebar-store.php:139
+msgid "Email to Store Owner"
+msgstr "إرسال بريد إلى صاحب المتجر"
+
+#: inc/sidebar-generator.php:102 inc/sidebar-generator.php:149
+msgid "Empty nonce"
+msgstr "nonce فارغ"
+
+#: inc/options/topbar.php:29 inc/options/advertisement.php:117
+#: inc/options/advertisement.php:150 inc/options/advertisement.php:159
+#: inc/options/layout.php:47 inc/options/layout.php:69
+#: inc/options/layout.php:80 inc/options/header.php:39
+#: inc/options/header.php:64 inc/options/header.php:72
+#: inc/options/header.php:108 inc/options/header.php:116
+#: inc/options/footer.php:36 inc/options/footer.php:51
+#: inc/options/general.php:59 inc/options/general.php:75
+#: inc/options/general.php:93 inc/options/general.php:102
+msgid "Enabled"
+msgstr "مفعّل"
+
+#: classified-listing/custom/listing-search.php:218
+msgid "Enter Keyword here ..."
+msgstr "أدخل الكلمة المفتاحية هنا ..."
+
+#: inc/updater/theme-updater-admin.php:152
+msgid "Enter your theme license key"
+msgstr "أدخل مفتاح ترخيص السمة"
+
+#: inc/updater/theme-updater.php:36
+msgid "Enter your theme license key."
+msgstr "أدخل مفتاح ترخيص السمة."
+
+#: inc/options/layout.php:146
+msgid "Error 404 Layout"
+msgstr "تخطيط خطأ 404"
+
+#: inc/options/error.php:20
+msgid "Error Page Settings"
+msgstr "إعدادات صفحة الخطأ"
+
+#: inc/options/error.php:36
+msgid "Error Text"
+msgstr "نص الخطأ"
+
+#: inc/options/listings.php:107
+msgid "Excerpt Length"
+msgstr "طول المقتطف"
+
+#. %s: expiration date
+#: inc/updater/theme-updater.php:46
+#, php-format
+msgid "Expires %s."
+msgstr "ينتهي في %s."
+
+#: inc/options/topbar.php:55
+msgid "Facebook"
+msgstr "فيسبوك"
+
+#: widgets/about.php:120
+msgid "Facebook URL"
+msgstr "رابط فيسبوك"
+
+#: widgets/information.php:88
+msgid "Fax"
+msgstr "فاكس"
+
+#: inc/options/error.php:28
+msgid "Featured Image"
+msgstr "الصورة المميزة"
+
+#: classified-listing/custom/sidebar-archive.php:33
+msgid "Filter Ads"
+msgstr "تصفية الإعلانات"
+
+#: inc/options/advertisement.php:189 inc/options/advertisement.php:208
+#: inc/options/advertisement.php:230 inc/options/advertisement.php:247
+#: inc/options/advertisement.php:266 inc/options/footer.php:21
+msgid "Footer"
+msgstr "التذييل"
+
+#: inc/general.php:109
+msgid "Footer 1"
+msgstr "التذييل 1"
+
+#: inc/general.php:110
+msgid "Footer 2"
+msgstr "التذييل 2"
+
+#: inc/general.php:111
+msgid "Footer 3"
+msgstr "التذييل 3"
+
+#: inc/general.php:112
+msgid "Footer 4"
+msgstr "التذييل 4"
+
+#: inc/options/color.php:157
+msgid "Footer Area"
+msgstr "منطقة التذييل"
+
+#: inc/options/color.php:164
+msgid "Footer Background Color"
+msgstr "لون خلفية التذييل"
+
+#: inc/options/color.php:185
+msgid "Footer Body Link Color"
+msgstr "لون روابط جسم التذييل"
+
+#: inc/options/color.php:192
+msgid "Footer Body Link Hover Color"
+msgstr "لون روابط جسم التذييل عند التمرير"
+
+#: inc/options/color.php:178
+msgid "Footer Body Text Color"
+msgstr "لون نص جسم التذييل"
+
+#: inc/options/color.php:171
+msgid "Footer Title Text Color"
+msgstr "لون نص عنوان التذييل"
+
+#: classified-listing/myaccount/form-login.php:76
+msgid "Forgot your password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: classified-listing/store/custom/store-contents.php:31
+msgid "Friday"
+msgstr "الجمعة"
+
+#: inc/options/layout.php:28 inc/options/layout.php:157
+#: inc/options/layout.php:175 inc/options/layout.php:192
+msgid "Full Width"
+msgstr "عرض كامل"
+
+#: inc/options/general.php:20
+msgid "General"
+msgstr "عام"
+
+#: inc/updater/lc-helper.php:136
+msgid "Go to Downloads, then License keys."
+msgstr "اذهب إلى التنزيلات، ثم مفاتيح الترخيص."
+
+#: inc/options/error.php:43
+msgid "Go To Home Page"
+msgstr "الذهاب إلى الصفحة الرئيسية"
+
+#: classified-listing/single-rtcl_listing-reviews.php:110
+msgid "Good"
+msgstr "جيد"
+
+#: inc/scripts.php:206
+msgctxt "Google fonts - Open Sans and Poppins : on or off"
+msgid "on"
+msgstr "تشغيل"
+
+#: inc/options/listings.php:29
+msgid "Grid View Settings"
+msgstr "إعدادات عرض الشبكة"
+
+#: inc/options/listings.php:35
+msgid "Grid View Style"
+msgstr "نمط عرض الشبكة"
+
+#: inc/options/advertisement.php:186 inc/options/advertisement.php:205
+#: inc/options/advertisement.php:227 inc/options/advertisement.php:244
+#: inc/options/advertisement.php:263 inc/options/header.php:20
+msgid "Header"
+msgstr "الترويسة"
+
+#: inc/options/header.php:95
+msgid "Header Button Text"
+msgstr "نص زر الترويسة"
+
+#: inc/options/header.php:101
+msgid "Header Button URL"
+msgstr "رابط زر الترويسة"
+
+#: inc/options/header.php:71
+msgid "Header Chat Icon"
+msgstr "أيقونة دردشة الترويسة"
+
+#: inc/options/typography.php:43
+msgid "Header h1"
+msgstr "ترويسة h1"
+
+#: inc/options/typography.php:59
+msgid "Header h2"
+msgstr "ترويسة h2"
+
+#: inc/options/typography.php:75
+msgid "Header h3"
+msgstr "ترويسة h3"
+
+#: inc/options/typography.php:91
+msgid "Header h4"
+msgstr "ترويسة h4"
+
+#: inc/options/typography.php:107
+msgid "Header h5"
+msgstr "ترويسة h5"
+
+#: inc/options/typography.php:123
+msgid "Header h6"
+msgstr "ترويسة h6"
+
+#: inc/options/layout.php:55 inc/options/header.php:47
+msgid "Header Layout"
+msgstr "تخطيط الترويسة"
+
+#: inc/options/header.php:63
+msgid "Header Login Icon"
+msgstr "أيقونة تسجيل الدخول في الترويسة"
+
+#: inc/options/header.php:79
+msgid "Header Login Icon Text (Guest Mode)"
+msgstr "نص أيقونة تسجيل الدخول (وضع الضيف)"
+
+#: inc/options/header.php:87
+msgid "Header Login Icon Text (Logged in Mode)"
+msgstr "نص أيقونة تسجيل الدخول (وضع المسجل)"
+
+#: inc/options/layout.php:66 inc/options/header.php:107
+msgid "Header Search"
+msgstr "بحث الترويسة"
+
+#: inc/options/general.php:100
+msgid "Hide Admin Bar"
+msgstr "إخفاء شريط الإدارة"
+
+#: inc/options/general.php:101
+msgid "Hide Admin Bar for subscribers"
+msgstr "إخفاء شريط الإدارة للمشتركين"
+
+#: inc/breadcrumbs.php:258
+msgid "Home"
+msgstr "الرئيسية"
+
+#: inc/breadcrumbs.php:791
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr "g a"
+
+#. Author URI of the theme
+msgid "https://www.radiustheme.com"
+msgstr "https://www.radiustheme.com"
+
+#. URI of the theme
+msgid ""
+"https://www.radiustheme.com/downloads/classilist-classified-ads-wordpress-theme/"
+msgstr "https://www.radiustheme.com/downloads/classilist-classified-ads-wordpress-theme/"
+
+#. %s is a HTML link to the support page.
+#: classified-listing/custom/functions.php:159
+#, php-format
+msgid ""
+"If you face any issue after update, please switch to parent theme and contact with %s."
+msgstr "إذا واجهت أي مشكلة بعد التحديث، يرجى التبديل إلى السمة الرئيسية والاتصال بـ %s."
+
+#: inc/options/advertisement.php:126 inc/options/advertisement.php:135
+msgid "Image"
+msgstr "صورة"
+
+#: classified-listing/listing-form/gallery.php:21
+msgid "Images"
+msgstr "صور"
+
+#: inc/options/topbar.php:85
+msgid "Instagram"
+msgstr "إنستغرام"
+
+#: widgets/about.php:136
+msgid "Instagram URL"
+msgstr "رابط إنستغرام"
+
+#: inc/sidebar-generator.php:105 inc/sidebar-generator.php:152
+msgid "Invalid nonce"
+msgstr "nonce غير صالح"
+
+#: template-parts/content-none.php:24
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr "يبدو أننا لا نستطيع العثور على ما تبحث عنه. ربما يساعد البحث."
+
+#: inc/options/layout.php:25
+msgid "Layout"
+msgstr "التخطيط"
+
+#: inc/options/layout.php:58 inc/options/header.php:51 inc/options/blog.php:33
+msgid "Layout 1"
+msgstr "التخطيط 1"
+
+#: inc/options/layout.php:59 inc/options/header.php:55 inc/options/blog.php:37
+msgid "Layout 2"
+msgstr "التخطيط 2"
+
+#: inc/options/layout.php:90
+msgid "Layout Defaults"
+msgstr "التخطيطات الافتراضية"
+
+#: classified-listing/single-rtcl_listing-reviews.php:122
+msgid "Leave a Review"
+msgstr "اترك مراجعة"
+
+#: inc/options/layout.php:27 inc/options/layout.php:156
+#: inc/options/layout.php:174 inc/options/layout.php:191
+msgid "Left Sidebar"
+msgstr "الشريط الجانبي الأيسر"
+
+#: inc/updater/theme-updater.php:38
+msgid "License Action"
+msgstr "إجراء الترخيص"
+
+#: inc/updater/theme-updater.php:53
+msgid "License is inactive."
+msgstr "الترخيص غير نشط."
+
+#: inc/updater/theme-updater.php:37
+msgid "License Key"
+msgstr "مفتاح الترخيص"
+
+#. %s: expiration date
+#: inc/updater/theme-updater.php:50
+#, php-format
+msgid "License key expired %s."
+msgstr "انتهت صلاحية مفتاح الترخيص في %s."
+
+#: inc/updater/theme-updater.php:51
+msgid "License key has expired."
+msgstr "انتهت صلاحية مفتاح الترخيص."
+
+#: inc/updater/theme-updater.php:44
+msgid "License key is active."
+msgstr "مفتاح الترخيص نشط."
+
+#: inc/updater/theme-updater.php:54
+msgid "License key is disabled."
+msgstr "مفتاح الترخيص معطل."
+
+#: inc/updater/theme-updater.php:52
+msgid "License keys do not match."
+msgstr "مفاتيح الترخيص غير متطابقة."
+
+#: inc/updater/theme-updater-admin.php:157
+msgid "License Status"
+msgstr "حالة الترخيص"
+
+#: inc/updater/theme-updater.php:41 inc/updater/theme-updater.php:56
+msgid "License status is unknown."
+msgstr "حالة الترخيص غير معروفة."
+
+#: inc/options/general.php:36
+msgid "Light Logo"
+msgstr "شعار فاتح"
+
+#: inc/options/advertisement.php:142
+msgid "Link"
+msgstr "رابط"
+
+#: inc/options/topbar.php:67
+msgid "Linkedin"
+msgstr "لينكدإن"
+
+#: widgets/about.php:128
+msgid "Linkedin URL"
+msgstr "رابط لينكدإن"
+
+#: inc/options/listings.php:91
+msgid "List View Settings"
+msgstr "إعدادات عرض القائمة"
+
+#: inc/options/listings.php:97
+msgid "List View Style"
+msgstr "نمط عرض القائمة"
+
+#: inc/options/layout.php:199
+msgid "Listing Account Page"
+msgstr "صفحة حساب الإعلانات"
+
+#: inc/options/layout.php:164
+msgid "Listing Archive"
+msgstr "أرشيف الإعلانات"
+
+#: inc/options/listings.php:122
+msgid "Listing Details Settings"
+msgstr "إعدادات تفاصيل الإعلان"
+
+#: inc/options/advertisement.php:196
+msgid "Listing Page"
+msgstr "صفحة الإعلانات"
+
+#: inc/options/listings.php:156
+msgid "Listing Search Items"
+msgstr "عناصر بحث الإعلانات"
+
+#: inc/options/listings.php:137
+msgid "Listing Search Settings"
+msgstr "إعدادات بحث الإعلانات"
+
+#: inc/options/listings.php:143
+msgid "Listing Search Style"
+msgstr "نمط بحث الإعلانات"
+
+#: inc/options/listings.php:20
+msgid "Listing Settings"
+msgstr "إعدادات الإعلانات"
+
+#: inc/options/layout.php:181
+msgid "Listing Single"
+msgstr "إعلان فردي"
+
+#: classified-listing/listing-form/contact.php:166
+#: classified-listing/listing/map.php:21
+#: classified-listing/custom/seller-info.php:79
+#: classified-listing/store/custom/sidebar-store.php:91
+msgid "Location"
+msgstr "الموقع"
+
+#: inc/updater/lc-helper.php:135
+msgid "Log in to your account at RadiusTheme.com."
+msgstr "سجّل الدخول إلى حسابك على RadiusTheme.com."
+
+#: classified-listing/myaccount/form-login.php:21
+#: classified-listing/myaccount/form-login.php:53
+msgid "Login"
+msgstr "تسجيل الدخول"
+
+#: inc/options/header.php:80
+msgid "Login/ Register"
+msgstr "تسجيل الدخول / التسجيل"
+
+#: widgets/about.php:112
+msgid "Logo"
+msgstr "الشعار"
+
+#: inc/options/general.php:45
+msgid "Logo Area Width"
+msgstr "عرض منطقة الشعار"
+
+#: inc/options/general.php:28
+msgid "Main Logo"
+msgstr "الشعار الرئيسي"
+
+#: inc/options/color.php:73
+msgid "Main Menu"
+msgstr "القائمة الرئيسية"
+
+#: inc/options/typography.php:139
+msgid "Main Menu Items"
+msgstr "عناصر القائمة الرئيسية"
+
+#: inc/options/advertisement.php:162
+msgid "Make Link Nofollow"
+msgstr "جعل الرابط nofollow"
+
+#: classified-listing/listing-form/contact.php:247
+msgid "Map"
+msgstr "الخريطة"
+
+#: classified-listing/listing-form/information.php:148
+msgid "Max Price"
+msgstr "الحد الأقصى للسعر"
+
+#: inc/options/color.php:80
+msgid "Menu Color"
+msgstr "لون القائمة"
+
+#: inc/options/typography.php:145
+msgid "Menu Font"
+msgstr "خط القائمة"
+
+#: inc/options/color.php:87
+msgid "Menu Hover Color"
+msgstr "لون القائمة عند التمرير"
+
+#: classified-listing/listing/actions.php:112
+msgid "Message..."
+msgstr "رسالة..."
+
+#. Minute archive title. %s is the minute time format.
+#: inc/breadcrumbs.php:268
+#, php-format
+msgid "Minute %s"
+msgstr "دقيقة %s"
+
+#: inc/breadcrumbs.php:755
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr "g:i a"
+
+#: inc/breadcrumbs.php:773
+msgctxt "minute archives time format"
+msgid "i"
+msgstr "i"
+
+#: inc/options/listings.php:77
+msgid "Mobile"
+msgstr "الجوال"
+
+#: inc/options/typography.php:185
+msgid "Mobile Menu"
+msgstr "قائمة الجوال"
+
+#: inc/options/typography.php:191
+msgid "Mobile Menu Font"
+msgstr "خط قائمة الجوال"
+
+#: classified-listing/store/custom/store-contents.php:27
+msgid "Monday"
+msgstr "الإثنين"
+
+#: inc/breadcrumbs.php:809 inc/breadcrumbs.php:879 inc/breadcrumbs.php:1266
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr "F"
+
+#: inc/options/header.php:88
+msgid "My Account"
+msgstr "حسابي"
+
+#: comments.php:32 inc/sidebar-generator.php:55
+msgid "Name"
+msgstr "الاسم"
+
+#: inc/updater/lc-helper.php:144
+msgid "Need a hand?"
+msgstr "هل تحتاج مساعدة؟"
+
+#: comments.php:73
+msgid "Newer Comments"
+msgstr "تعليقات أحدث"
+
+#: classified-listing/single-rtcl_listing-reviews.php:44
+msgid "Newer Reviews"
+msgstr "مراجعات أحدث"
+
+#: template-parts/pagination.php:53
+msgid "Next"
+msgstr "التالي"
+
+#: classified-listing/content-single-store.php:48
+msgid "No Ratings"
+msgstr "لا تقييمات"
+
+#: classified-listing/custom/noresults.php:15
+msgid "No results found"
+msgstr "لم يتم العثور على نتائج"
+
+#: classified-listing/listing-form/price-unit.php:29
+msgid "No unit"
+msgstr "بدون وحدة"
+
+#: inc/options/advertisement.php:158
+msgid "Nofollow"
+msgstr "Nofollow"
+
+#: inc/updater/theme-updater-admin.php:161
+msgid "Not Activated"
+msgstr "غير مفعّل"
+
+#: inc/updater/lc-helper.php:78
+msgid "Not activated"
+msgstr "غير مفعّل"
+
+#: classified-listing/single-rtcl_listing-reviews.php:112
+msgid "Not that bad"
+msgstr "ليس بهذا السوء"
+
+#: inc/options/post.php:30 inc/options/post.php:38 inc/options/post.php:46
+#: inc/options/post.php:54 inc/options/post.php:62 inc/options/post.php:70
+#: inc/options/post.php:106 inc/options/blog.php:47 inc/options/blog.php:55
+#: inc/options/blog.php:63 inc/options/blog.php:71 inc/options/listings.php:47
+#: inc/options/listings.php:115 inc/options/listings.php:130
+msgid "Off"
+msgstr "إيقاف"
+
+#: classified-listing/custom/seller-info.php:36
+msgid "Offline Now"
+msgstr "غير متصل الآن"
+
+#: comments.php:72
+msgid "Older Comments"
+msgstr "تعليقات أقدم"
+
+#: classified-listing/single-rtcl_listing-reviews.php:43
+msgid "Older Reviews"
+msgstr "مراجعات أقدم"
+
+#: inc/options/post.php:29 inc/options/post.php:37 inc/options/post.php:45
+#: inc/options/post.php:53 inc/options/post.php:61 inc/options/post.php:69
+#: inc/options/post.php:105 inc/options/blog.php:46 inc/options/blog.php:54
+#: inc/options/blog.php:62 inc/options/blog.php:70 inc/options/listings.php:46
+#: inc/options/listings.php:114 inc/options/listings.php:129
+msgid "On"
+msgstr "تشغيل"
+
+#: classified-listing/custom/seller-info.php:39
+msgid "Online Now"
+msgstr "متصل الآن"
+
+#: classified-listing/listing/business-hours.php:46
+#: classified-listing/listing/business-hours.php:59
+msgid "Open"
+msgstr "مفتوح"
+
+#: classified-listing/listing/business-hours.php:111
+msgid "Open (24 Hours)"
+msgstr "مفتوح (24 ساعة)"
+
+#: inc/options/advertisement.php:149
+msgid "Open Link in New Tab"
+msgstr "فتح الرابط في تبويب جديد"
+
+#: classified-listing/store/custom/store-time.php:19
+msgid "Open Now"
+msgstr "مفتوح الآن"
+
+#: classified-listing/store/custom/sidebar-store.php:43
+msgid "Open now"
+msgstr "مفتوح الآن"
+
+#: inc/updater/lc-helper.php:139
+msgid "Open RadiusTheme account"
+msgstr "فتح حساب RadiusTheme"
+
+#: classified-listing/listing/business-hours.php:110
+msgid "Open Today (24 Hours)"
+msgstr "مفتوح اليوم (24 ساعة)"
+
+#: classified-listing/store/custom/store-time.php:25
+msgid "Open:"
+msgstr "الفتح:"
+
+#: classified-listing/store/custom/store-contents.php:54
+msgid "Opening Hours"
+msgstr "ساعات العمل"
+
+#: inc/sidebar-generator.php:86
+msgid "Operation failed"
+msgstr "فشلت العملية"
+
+#: inc/options/color.php:49
+msgid "Other Colors"
+msgstr "ألوان أخرى"
+
+#: inc/options/advertisement.php:273 inc/options/layout.php:101
+msgid "Page"
+msgstr "صفحة"
+
+#. %s is the page number.
+#: inc/breadcrumbs.php:264
+#, php-format
+msgid "Page %s"
+msgstr "صفحة %s"
+
+#: inc/helper.php:44
+msgid "Page not Found"
+msgstr "الصفحة غير موجودة"
+
+#: classified-listing/myaccount/form-login.php:36
+#: classified-listing/myaccount/form-login.php:119
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: classified-listing/myaccount/form-login.php:135
+msgid "Password does not match."
+msgstr "كلمة المرور غير متطابقة."
+
+#: inc/options/footer.php:59
+msgid "Payment Images Gallery"
+msgstr "معرض صور الدفع"
+
+#: classified-listing/single-rtcl_listing-reviews.php:109
+msgid "Perfect"
+msgstr "ممتاز"
+
+#: classified-listing/store/custom/store-contents.php:78
+msgid "Permanently Closed"
+msgstr "مغلق نهائيًا"
+
+#: widgets/information.php:84 inc/options/topbar.php:36
+#: classified-listing/listing-form/contact.php:184
+msgid "Phone"
+msgstr "الهاتف"
+
+#: classified-listing/custom/seller-info.php:89
+msgid "Phone Number"
+msgstr "رقم الهاتف"
+
+#: inc/options/topbar.php:79
+msgid "Pinterest"
+msgstr "بينتيريست"
+
+#: widgets/about.php:132
+msgid "Pinterest URL"
+msgstr "رابط بينتيريست"
+
+#: inc/updater/theme-updater-admin.php:503
+#, php-format
+msgid "Please %s to get update, full functionalities and customer support."
+msgstr "يرجى %s للحصول على التحديثات والوظائف الكاملة ودعم العملاء."
+
+#. %s is the URL to the login/my account page.
+#: classified-listing/custom/seller-info.php:69
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the seller information."
+msgstr "يرجى <a href='%s'>تسجيل الدخول</a> لعرض معلومات البائع."
+
+#. %s is the URL to the login/my account page.
+#: classified-listing/store/custom/sidebar-store.php:62
+#, php-format
+msgid "Please <a href='%s'>login</a> to view the store contact."
+msgstr "يرجى <a href='%s'>تسجيل الدخول</a> لعرض جهة اتصال المتجر."
+
+#: inc/updater/lc-utility.php:546
+msgid "Please activate your theme license to install demo data."
+msgstr "يرجى تفعيل ترخيص السمة لتثبيت بيانات العرض التوضيحي."
+
+#: inc/updater/lc-utility.php:559 inc/updater/lc-utility.php:576
+msgid "Please activate your theme license to use this plugin."
+msgstr "يرجى تفعيل ترخيص السمة لاستخدام هذه الإضافة."
+
+#: functions.php:84
+#, php-format
+msgid ""
+"Please update plugin <b><i>%1$s</b></i> to the latest version otherwise some functionalities will not work properly. You can update it from <a href='%2$s'>here</a>"
+msgstr "يرجى تحديث الإضافة <b><i>%1$s</b></i> إلى أحدث إصدار وإلا فلن تعمل بعض الوظائف بشكل صحيح. يمكنك تحديثها من <a href='%2$s'>هنا</a>"
+
+#: inc/options/general.php:83
+msgid ""
+"Please upload your choice of preloader image. Transparent GIF format is recommended"
+msgstr "يرجى رفع صورة التحميل المسبق التي تختارها. يُفضل تنسيق GIF الشفاف"
+
+#: inc/options/listings.php:145
+msgid "Popup"
+msgstr "نافذة منبثقة"
+
+#: inc/options/post.php:20
+msgid "Post Settings"
+msgstr "إعدادات المنشور"
+
+#: inc/options/layout.php:123
+msgid "Post Single"
+msgstr "منشور فردي"
+
+#: classified-listing/custom/seller-info.php:53
+msgid "Posted By"
+msgstr "نُشر بواسطة"
+
+#: inc/options/general.php:74
+msgid "Preloader"
+msgstr "التحميل المسبق"
+
+#: inc/options/general.php:82
+msgid "Preloader Image"
+msgstr "صورة التحميل المسبق"
+
+#: template-parts/pagination.php:52
+msgid "Previous"
+msgstr "السابق"
+
+#: classified-listing/listing-form/information.php:124
+msgid "Price"
+msgstr "السعر"
+
+#: classified-listing/listing-form/information.php:97
+msgid "Price Type"
+msgstr "نوع السعر"
+
+#: classified-listing/listing-form/price-unit.php:24
+msgid "Price Unit"
+msgstr "وحدة السعر"
+
+#: classified-listing/listing-form/information.php:72
+msgid "Pricing"
+msgstr "التسعير"
+
+#: inc/general.php:87
+msgid "Primary"
+msgstr "أساسي"
+
+#: inc/options/color.php:36 inc/options/color.php:51
+msgid "Primary Color"
+msgstr "اللون الأساسي"
+
+#: classified-listing/listing-form/information.php:35
+msgid "Product Information"
+msgstr "معلومات المنتج"
+
+#: classified-listing/listing-form/information.php:233
+msgid "Put tags with comma \\\",\\\""
+msgstr ""
+
+#: classified-listing/custom/list-items/archive-list-2.php:120
+msgid "Quick View"
+msgstr "عرض سريع"
+
+#: classified-listing/custom/listing-search.php:132
+msgid "Radius in Miles"
+msgstr "نصف القطر بالميل"
+
+#. Author of the theme
+msgid "RadiusTheme"
+msgstr "RadiusTheme"
+
+#: classified-listing/single-rtcl_listing-reviews.php:108
+msgid "Rate&hellip;"
+msgstr "قيّم&hellip;"
+
+#: template-parts/content.php:44 template-parts/content-alt.php:45
+msgid "Read More"
+msgstr "اقرأ المزيد"
+
+#: inc/general.php:229
+msgid "read more ..."
+msgstr "اقرأ المزيد ..."
+
+#. %1$s is the URL to create a new post.
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\\\"%1$s\\\">Get started here</a>"
+msgstr ""
+
+#: classified-listing/myaccount/form-login.php:67
+#: classified-listing/myaccount/form-login.php:90
+#: classified-listing/myaccount/form-login.php:146
+msgid "Register"
+msgstr "تسجيل"
+
+#: classified-listing/myaccount/form-login.php:58
+msgid "Remember Me"
+msgstr "تذكرني"
+
+#: classified-listing/custom/functions.php:279
+msgid "Remove from Favourites"
+msgstr "إزالة من المفضلة"
+
+#: inc/updater/theme-updater.php:42
+msgid "Renew?"
+msgstr "تجديد؟"
+
+#: comments.php:61
+msgid "Reply"
+msgstr "رد"
+
+#: classified-listing/listing/actions.php:64
+#: classified-listing/listing/actions.php:66
+#: classified-listing/listing/actions.php:106
+msgid "Report Abuse"
+msgstr "الإبلاغ عن إساءة"
+
+#: inc/options/header.php:28
+msgid "Responsive Header Screen Width"
+msgstr "عرض شاشة الترويسة المتجاوبة"
+
+#: classified-listing/single-rtcl_listing-reviews.php:37
+msgid "Review"
+msgstr "مراجعة"
+
+#: classified-listing/single-rtcl_listing-reviews.php:106
+msgid "Review Title"
+msgstr "عنوان المراجعة"
+
+#: classified-listing/single-rtcl_listing-reviews.php:37
+msgid "Reviews"
+msgstr "المراجعات"
+
+#: classified-listing/single-rtcl_listing-reviews.php:65
+msgid "Reviews are closed."
+msgstr "المراجعات مغلقة."
+
+#: classified-listing/single-rtcl_listing-reviews.php:45
+msgid "Reviews navigation"
+msgstr "تنقل المراجعات"
+
+#: inc/options/layout.php:29 inc/options/layout.php:158
+#: inc/options/layout.php:176 inc/options/layout.php:193
+msgid "Right Sidebar"
+msgstr "الشريط الجانبي الأيمن"
+
+#: inc/options/topbar.php:91
+msgid "RSS"
+msgstr "RSS"
+
+#: widgets/about.php:144
+msgid "Rss Feed URL"
+msgstr "رابط خلاصة RSS"
+
+#: classified-listing/store/custom/store-contents.php:32
+msgid "Saturday"
+msgstr "السبت"
+
+#: inc/updater/theme-updater-admin.php:181
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: inc/options/header.php:29
+msgid "Screen width in which mobile menu activated. Recommended value is: 992"
+msgstr "عرض الشاشة الذي يتم فيه تفعيل قائمة الجوال. القيمة الموصى بها: 992"
+
+#: classified-listing/custom/listing-search.php:225
+msgid "Search"
+msgstr "بحث"
+
+#: searchform.php:11
+msgid "Search here ..."
+msgstr "ابحث هنا ..."
+
+#: inc/options/layout.php:134
+msgid "Search Layout"
+msgstr "تخطيط البحث"
+
+#: inc/helper.php:46 template-parts/content-top.php:38
+msgid "Search Results for : "
+msgstr "نتائج البحث عن : "
+
+#. %s is the search query.
+#: inc/breadcrumbs.php:262
+#, php-format
+msgid "Search results for: %s"
+msgstr "نتائج البحث عن: %s"
+
+#: inc/options/color.php:43
+msgid "Secondery Color"
+msgstr "اللون الثانوي"
+
+#: classified-listing/listing-form/contact.php:173
+#: classified-listing/custom/listing-search.php:118
+msgid "Select a location"
+msgstr "اختر موقعًا"
+
+#: classified-listing/listing-form/category.php:53
+#: classified-listing/custom/listing-search.php:30
+msgid "Select Category"
+msgstr "اختر الفئة"
+
+#: classified-listing/listing-form/contact.php:56
+#: classified-listing/listing-form/contact.php:87
+#: classified-listing/listing-form/contact.php:117
+#: classified-listing/custom/listing-search.php:29
+msgid "Select Location"
+msgstr "اختر الموقع"
+
+#: classified-listing/listing-form/category.php:24
+#: classified-listing/listing-form/category.php:33
+#: classified-listing/custom/listing-search.php:31
+msgid "Select Type"
+msgstr "اختر النوع"
+
+#: inc/options/color.php:55
+msgid ""
+"Selecting Primary Color will hide some color options from the below settings and replace them with Primary/Secondery Color"
+msgstr "اختيار اللون الأساسي سيخفي بعض خيارات الألوان من الإعدادات أدناه ويستبدلها باللون الأساسي/الثانوي"
+
+#: classified-listing/custom/seller-info.php:43
+msgid "Seller Information"
+msgstr "معلومات البائع"
+
+#: template-parts/content-single.php:61
+msgid "Share"
+msgstr "مشاركة"
+
+#: classified-listing/listing/actions.php:91
+msgid "Share this Ad:"
+msgstr "شارك هذا الإعلان:"
+
+#: inc/options/header.php:42
+msgid "Show header at the top when scrolling down"
+msgstr "إظهار الترويسة في الأعلى عند التمرير لأسفل"
+
+#. %1$d is the first result number, %2$d is the last result number, %3$d is the total results count.
+#: classified-listing/custom/functions.php:433
+#, php-format
+msgid "Showing %1$d–%2$d of %3$d results"
+msgstr "عرض %1$d–%2$d من %3$d نتيجة"
+
+#: classified-listing/custom/functions.php:436
+msgid "Showing 0 result"
+msgstr "عرض 0 نتيجة"
+
+#: classified-listing/custom/functions.php:430
+msgid "Showing 1 result"
+msgstr "عرض نتيجة واحدة"
+
+#: inc/helper.php:195 inc/general.php:99
+msgid "Sidebar"
+msgstr "الشريط الجانبي"
+
+#: inc/general.php:129
+msgid "Sidebar - My Account"
+msgstr "الشريط الجانبي - حسابي"
+
+#: inc/woocommerce.php:52
+msgid "Sidebar - WooCommerce"
+msgstr "الشريط الجانبي - WooCommerce"
+
+#: inc/sidebar-generator.php:146
+msgid "Sidebar ID not found"
+msgstr "لم يتم العثور على معرف الشريط الجانبي"
+
+#: inc/sidebar-generator.php:99
+msgid "Sidebar name can't be empty"
+msgstr "لا يمكن أن يكون اسم الشريط الجانبي فارغًا"
+
+#: inc/sidebar-generator.php:112
+msgid ""
+"Sidebar with the same name already exists. Please choose a different name"
+msgstr "يوجد بالفعل شريط جانبي بنفس الاسم. يرجى اختيار اسم مختلف"
+
+#: inc/options/advertisement.php:218
+msgid "Single Listing Page"
+msgstr "صفحة إعلان فردي"
+
+#: inc/options/advertisement.php:254
+msgid "Single Post"
+msgstr "منشور فردي"
+
+#: inc/updater/theme-updater.php:55
+msgid "Site is inactive."
+msgstr "الموقع غير نشط."
+
+#: inc/options/color.php:29
+msgid "Sitewide Colors"
+msgstr "ألوان الموقع بالكامل"
+
+#: header.php:26
+msgid "Skip to content"
+msgstr "تخطي إلى المحتوى"
+
+#: classified-listing/listing-form/social-profiles.php:26
+msgid "Social Profiles"
+msgstr "الملفات الشخصية الاجتماعية"
+
+#: inc/options/post.php:77
+msgid "Social Sharing Icons"
+msgstr "أيقونات المشاركة الاجتماعية"
+
+#: inc/scripts.php:159
+msgid "Sold Out"
+msgstr "نفد المخزون"
+
+#: template-parts/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "عذرًا، لم يتطابق أي شيء مع مصطلحات البحث الخاصة بك. يرجى المحاولة مرة أخرى بكلمات مفتاحية مختلفة."
+
+#: classified-listing/listing/business-hours.php:35
+msgid "Sorry, we are currently closed."
+msgstr "عذرًا، نحن مغلقون حاليًا."
+
+#: inc/options/listings.php:146
+msgid "Standard"
+msgstr "قياسي"
+
+#: inc/options/header.php:38
+msgid "Sticky Header"
+msgstr "ترويسة ثابتة"
+
+#: template-parts/content-top.php:26
+msgid "Store"
+msgstr "المتجر"
+
+#: classified-listing/store-link-to-user-information.php:14
+#: classified-listing/store/custom/sidebar-store.php:57
+msgid "Store Information"
+msgstr "معلومات المتجر"
+
+#: inc/options/listings.php:37 inc/options/listings.php:99
+msgid "Style 1"
+msgstr "النمط 1"
+
+#: inc/options/listings.php:38 inc/options/listings.php:100
+msgid "Style 2"
+msgstr "النمط 2"
+
+#: classified-listing/listing-form/category.php:84
+msgid "Sub Category"
+msgstr "فئة فرعية"
+
+#: inc/options/color.php:94
+msgid "Sub Menu"
+msgstr "قائمة فرعية"
+
+#: inc/options/typography.php:162
+msgid "Sub Menu Items"
+msgstr "عناصر القائمة الفرعية"
+
+#: inc/options/color.php:101
+msgid "Submenu Color"
+msgstr "لون القائمة الفرعية"
+
+#: inc/options/typography.php:168
+msgid "Submenu Font"
+msgstr "خط القائمة الفرعية"
+
+#: inc/options/color.php:115
+msgid "Submenu Hover Background Color"
+msgstr "لون خلفية القائمة الفرعية عند التمرير"
+
+#: inc/options/color.php:108
+msgid "Submenu Hover Color"
+msgstr "لون القائمة الفرعية عند التمرير"
+
+#: classified-listing/single-rtcl_listing-reviews.php:94
+#: classified-listing/listing/actions.php:118
+msgid "Submit"
+msgstr "إرسال"
+
+#: classified-listing/listing-form/form.php:19
+msgid "Submit Listing"
+msgstr "إرسال إعلان"
+
+#: classified-listing/store/custom/store-contents.php:26
+msgid "Sunday"
+msgstr "الأحد"
+
+#: inc/options/advertisement.php:170
+msgid "Supports: Shortcode, Adsense, Text, HTML, Scripts"
+msgstr "يدعم: الشورتكود، Adsense، النص، HTML، السكريبتات"
+
+#: inc/options/listings.php:65
+msgid "Tablet"
+msgstr "الجهاز اللوحي"
+
+#: classified-listing/listing-form/information.php:221
+msgid "Tags"
+msgstr "العلامات"
+
+#: inc/updater/theme-updater.php:35 inc/updater/lc-helper.php:48
+#: inc/updater/lc-helper.php:49 inc/updater/lc-helper.php:75
+msgid "Theme License"
+msgstr "ترخيص السمة"
+
+#: inc/options/init.php:38 inc/options/init.php:39
+msgid "Theme Options"
+msgstr "خيارات السمة"
+
+#: classified-listing/listing-form/terms-conditions.php:36
+msgid "This field is required"
+msgstr "هذا الحقل مطلوب"
+
+#: inc/options/footer.php:60
+msgid "This payment image sise should be 34×21px"
+msgstr "يجب أن يكون حجم صورة الدفع هذه 34×21 بكسل"
+
+#: classified-listing/listing-form/contact.php:221
+msgid "This will be your username"
+msgstr "سيكون هذا اسم المستخدم الخاص بك"
+
+#: classified-listing/store/custom/store-contents.php:30
+msgid "Thursday"
+msgstr "الخميس"
+
+#: inc/options/topbar.php:97
+msgid "Tiktok"
+msgstr "تيك توك"
+
+#: inc/options/general.php:66
+msgid "Time Format"
+msgstr "تنسيق الوقت"
+
+#: widgets/information.php:76 widgets/about.php:108
+#: classified-listing/listing-form/information.php:39
+msgid "Title"
+msgstr "العنوان"
+
+#: classified-listing/custom/functions.php:291
+msgid "Top Ad"
+msgstr "إعلان أعلى"
+
+#: inc/options/topbar.php:28 inc/options/layout.php:44 inc/options/color.php:60
+msgid "Top Bar"
+msgstr "الشريط العلوي"
+
+#: inc/options/topbar.php:20
+msgid "Top Bar & Socials"
+msgstr "الشريط العلوي والشبكات الاجتماعية"
+
+#: inc/options/color.php:67
+msgid "Top Bar Background Color"
+msgstr "لون خلفية الشريط العلوي"
+
+#: classified-listing/store/custom/store-contents.php:28
+msgid "Tuesday"
+msgstr "الثلاثاء"
+
+#: inc/options/topbar.php:61
+msgid "Twitter"
+msgstr "تويتر"
+
+#: widgets/about.php:124
+msgid "Twitter URL"
+msgstr "رابط تويتر"
+
+#: inc/options/typography.php:20
+msgid "Typography"
+msgstr "الطباعة"
+
+#: inc/updater/theme-updater.php:43
+msgid "unlimited"
+msgstr "غير محدود"
+
+#: classified-listing/listing-form/form.php:19
+msgid "Update Listing"
+msgstr "تحديث الإعلان"
+
+#: inc/updater/theme-updater.php:57
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to update."
+msgstr "سيؤدي تحديث هذه السمة إلى فقدان أي تخصيصات قمت بها. 'إلغاء' للتوقف، 'موافق' للتحديث."
+
+#: inc/options/general.php:40
+msgid "Used when Transparent Header is enabled"
+msgstr "يُستخدم عند تفعيل الترويسة الشفافة"
+
+#: inc/options/header.php:89
+msgid "Used when user is logged in"
+msgstr "يُستخدم عندما يكون المستخدم مسجل الدخول"
+
+#: inc/options/header.php:81
+msgid "Used when user isn't logged in"
+msgstr "يُستخدم عندما لا يكون المستخدم مسجل الدخول"
+
+#: classified-listing/myaccount/form-login.php:98
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: classified-listing/myaccount/form-login.php:104
+msgid "Username cannot be changed."
+msgstr "لا يمكن تغيير اسم المستخدم."
+
+#: classified-listing/myaccount/form-login.php:26
+msgid "Username or E-mail"
+msgstr "اسم المستخدم أو البريد الإلكتروني"
+
+#: classified-listing/single-rtcl_listing-reviews.php:113
+msgid "Very poor"
+msgstr "ضعيف جدًا"
+
+#: classified-listing/custom/seller-info.php:119
+#: classified-listing/store/custom/sidebar-store.php:130
+msgid "Visit Website"
+msgstr "زيارة الموقع"
+
+#: classified-listing/listing/business-hours.php:33
+msgid "We are currently open."
+msgstr "نحن مفتوحون حاليًا."
+
+#: inc/options/error.php:37
+msgid "We can't find the page you're looking for"
+msgstr "لا يمكننا العثور على الصفحة التي تبحث عنها"
+
+#: comments.php:38 classified-listing/listing-form/contact.php:231
+msgid "Website"
+msgstr "الموقع الإلكتروني"
+
+#: classified-listing/store/custom/store-contents.php:29
+msgid "Wednesday"
+msgstr "الأربعاء"
+
+#. Weekly archive title. %s is the week date format.
+#: inc/breadcrumbs.php:270
+#, php-format
+msgid "Week %s"
+msgstr "الأسبوع %s"
+
+#: inc/breadcrumbs.php:839
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr "W"
+
+#: classified-listing/listing-form/contact.php:198
+#: classified-listing/custom/seller-info.php:99
+#: classified-listing/store/custom/sidebar-store.php:111
+msgid "Whatsapp Number"
+msgstr "رقم واتساب"
+
+#: inc/updater/lc-helper.php:133
+msgid "Where's my license key?"
+msgstr "أين مفتاح الترخيص الخاص بي؟"
+
+#: inc/options/general.php:46
+msgid ""
+"Width is defined by the number of bootstrap columns. Please note, navigation menu width will be decreased with the increase of logo width"
+msgstr "يُحدد العرض بعدد أعمدة bootstrap. يرجى ملاحظة أن عرض قائمة التنقل سينخفض مع زيادة عرض الشعار"
+
+#: inc/breadcrumbs.php:808 inc/breadcrumbs.php:838 inc/breadcrumbs.php:878
+#: inc/breadcrumbs.php:906 inc/breadcrumbs.php:1261
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. 1: number of active sites, 2: total allowed sites
+#: inc/updater/theme-updater.php:48
+#, php-format
+msgid "You have %1$s / %2$s sites activated."
+msgstr "لديك %1$s / %2$s موقعًا مفعّلًا."
+
+#: classified-listing/custom/functions.php:149
+msgid ""
+"You have to must update <strong>Classified Listing Pro</strong> plugin, otherwise functionality will not work properly."
+msgstr "يجب عليك تحديث إضافة <strong>Classified Listing Pro</strong>، وإلا فلن تعمل الوظائف بشكل صحيح."
+
+#. %s is the URL to the login page.
+#: classified-listing/single-rtcl_listing-reviews.php:102
+#, php-format
+msgid "You must be <a href=\\\"%s\\\">logged in</a> to post a review."
+msgstr ""
+
+#: template-parts/comments-callback.php:60
+msgid "Your comment is awaiting moderation."
+msgstr "تعليقك في انتظار المراجعة."
+
+#: classified-listing/listing/actions.php:111
+msgid "Your Complaint"
+msgstr "شكواك"
+
+#: classified-listing/single-rtcl_listing-reviews.php:91
+msgid "Your Email"
+msgstr "بريدك الإلكتروني"
+
+#: classified-listing/single-rtcl_listing-reviews.php:89
+msgid "Your Name"
+msgstr "اسمك"
+
+#: classified-listing/single-rtcl_listing-reviews.php:107
+msgid "Your Rating"
+msgstr "تقييمك"
+
+#: classified-listing/single-rtcl_listing-reviews.php:117
+msgid "Your Review"
+msgstr "مراجعتك"
+
+#: classified-listing/listing/review.php:52
+msgid "Your review is awaiting moderation."
+msgstr "مراجعتك في انتظار المراجعة."
+
+#: inc/options/topbar.php:73
+msgid "Youtube"
+msgstr "يوتيوب"
+
+#: widgets/about.php:140
+msgid "YouTube URL"
+msgstr "رابط يوتيوب"
+
+#: classified-listing/listing-form/contact.php:138
+msgid "Zip Code"
+msgstr "الرمز البريدي"

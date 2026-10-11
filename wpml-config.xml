@@ -1,0 +1,15 @@
+<wpml-config>
+    <admin-texts>
+        <key name="classilist">
+            <key name="phone" />
+            <key name="address" />
+            <key name="header_icon_text_guest" />
+            <key name="header_icon_text_logged" />
+            <key name="header_btn_txt" />
+            <key name="header_btn_url" />
+            <key name="copyright_text" />
+            <key name="error_text" />
+            <key name="error_buttontext" />
+        </key>
+    </admin-texts>
+</wpml-config>

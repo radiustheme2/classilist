@@ -1,0 +1,111 @@
+/*-------------------------------------
+#. General
+---------------------------------------*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.main-header .main-navigation-area .main-navigation ul li ul.sub-menu li.menu-item-has-children::after {
+	content: "\f104";
+}
+
+.main-header .main-navigation-area .main-navigation ul li.mega-menu>ul.sub-menu li::after {
+	content: '';
+}
+
+.mean-container a.meanmenu-reveal {
+	left: 0 !important;
+	right: auto !important;
+}
+
+.pagination-area .fa-angle-double-right::before {
+	content: "\f100";
+}
+
+.pagination-area .fa-angle-double-left::before {
+	content: "\f101";
+}
+
+.sidebar-widget-area .widget ul li::before {
+	content: "\f104";
+}
+
+.owl-wrap .fa-angle-left:before {
+	content: "\f105";
+}
+
+.owl-wrap .fa-angle-right:before {
+	content: "\f104";
+}
+
+/*-------------------------------------
+#. Listing
+---------------------------------------*/
+.classilist-listing-search .rtcl-search-inline-form .rtcl-search-input-button {
+	text-align: right;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .rtcl-filter-form .ui-accordion-item .ui-accordion-icon {
+	float: left;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block ul.filter-list li.has-sub .arrow {
+	right: inherit;
+	left: 0;
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .ui-accordion-item .ui-accordion-content .filter-list li .sub-list li a:before {
+	content: '\f104';
+}
+
+.sidebar-widget-area .rtcl-widget-filter-class .panel-block .ui-accordion-item .ui-accordion-content .filter-list .rtcl-icon {
+	margin-right: 0;
+}
+
+.listing-list-each.featured-listing .rtin-thumb::after {
+	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+	clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.listing-list-each-1 .rtin-item .rtin-right .rtin-price,
+.listing-list-each-2 .rtin-item .rtin-right .rtin-price {
+	-webkit-clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, calc(100% - 20px) 50%, 100% 100%, 0 100%);
+}
+
+.classilist-listing-single .classilist-single-details .rtin-price {
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25px 50%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25px 50%);
+}
+
+.classilist-listing-archive .rtcl-sold-out {
+	left: auto;
+	right: -38px;
+	transform: rotate(45deg);
+}
+
+.listing-grid-each.featured-listing .rtin-thumb:after {
+	-webkit-clip-path: polygon(100% 0, 0 0, 100% 100%);
+	clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+.rtcl-search-inline-form .rtcl-search-input-button {
+	position: relative;
+}
+
+.rtcl-search-inline-form .rtcl-search-input-button:before {
+	position: absolute;
+	right: 10px;
+	top: 13px;
+}
+
+.classilist-listing-search .classilist-search-style-2 input,
+.classilist-listing-search .classilist-search-style-2 select,
+.rtcl-search-inline-form .rtcl-search-input-button .search-input-label {
+	padding-right: 28px !important;
+}
+
+.top-header .top-header-inner .tophead-info li i {
+	margin-left: 5px;
+}

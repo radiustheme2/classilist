@@ -1,0 +1,76 @@
+.redux-dev-mode-notice-container,
+.redux-timer {
+	display: none;
+}
+.redux-container-image_select .redux-image-select {
+	margin: 0 0 10px !important;
+}
+.redux-custom-inline .redux-container-checkbox li {
+	display: inline;
+	padding-right: 15px;
+	width: inherit !important;
+}
+.redux-custom-inline .redux-container-checkbox li label {
+	width: inherit;
+}
+.rt-postmeta-container .h200 {
+	height: 200px !important;
+}
+.redux-action_bar #redux-defaults-top,
+.redux-action_bar #redux-defaults-section-top,
+.redux-action_bar #redux-defaults-bottom,
+.redux-action_bar #redux-defaults-section-bottom {
+	display: none;
+}
+
+/* Listing */
+.rtcl_general_settings-load_bootstrap,
+#rtcl_style_settings-gs_section,
+#rtcl_style_settings-gs_section + table,
+#rtcl_style_settings-single_page_section,
+.rtcl_moderation_settings-detail_page_sidebar_position {
+	display: none;
+}
+
+#rtcl-price-unit-wrap {
+	width: 100%;
+}
+#rtcl-price-unit-wrap .control-label {
+	font-weight: 700;
+}
+#rtcl-custom-fields-list .control-label {
+	font-weight: 700;
+}
+#rtcl-custom-fields-list .rtcl-textarea.form-control {
+	margin-left: -15px;
+}
+#poststuff .inside,
+.rtcl-post-section {
+	margin-top: 20px;
+}
+.rtcl-post-section .control-label {
+	font-weight: 700;
+}
+.redux-main .redux-group-tab .ui-button {
+	padding: 8px 15px 8px;
+}
+.redux-main .redux-group-tab .ui-button .ui-icon {
+	display: none;
+}
+.rtcl-geo-address-input {
+	background-repeat: no-repeat !important;
+}
+.rtcl-cf-label > span,
+.rtcl label span.require-star {
+	color: red;
+}
+.rtcl-from-label,
+.price-label {
+	font-weight: 700;
+}
+#user-message {
+	width: 100% !important;
+}
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0 10px;
+}

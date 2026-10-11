@@ -1,0 +1,7 @@
+{
+  "name": "classilist",
+  "private": true,
+  "scripts": {
+    "zip": "node scripts/zip.js"
+  }
+}
