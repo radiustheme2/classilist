@@ -81,6 +81,18 @@ This is the heart of the theme.
 - `inc/breadcrumbs.php` is lazy-loaded by `Helper::the_breadcrumb()` (only when the `bcn_display()` plugin isn't available) — don't move its includes into the eager chain.
 - `inc/updater/` — self-hosted theme updater (not WordPress.org). Configuration lives at the top of `theme-updater.php`.
 
+### Companion plugin — ClassiList Core
+
+Source lives in the sibling repo `../classilist-core/` (entry file `classilist-core.php`, text domain `classilist-core`, namespace `radiustheme\ClassiList_Core`). It ships as `classilist-core.<version>.zip` via TGMPA (`inc/tgm-config.php`, marked `required`) and holds the theme-specific features that can't live in a theme:
+
+- **Constants** — `CLASSILIST_CORE` (plugin version, checked by `plugin_update_notices()` in `functions.php`), `CLASSILIST_CORE_BASE_URL`, `CLASSILIST_CORE_BASE_DIR`, `CLASSILIST_CORE_DEMO_CONTENT`, `CLASSILIST_CORE_THEME_PREFIX`.
+- **Handshake** — the theme fires `do_action( 'classilist_theme_init' )` from `ClassiList_Main::includes()`; the plugin only loads its post meta and Elementor widgets when `did_action( 'classilist_theme_init' )` is true, so it stays inert under any other theme.
+- `inc/post-meta.php` — post/page meta boxes (feeds the post-meta step of the `Layouts` cascade); also requires the RT Framework plugin (`RT_FRAMEWORK_VERSION`).
+- `elementor/` — all Elementor widgets (`init.php` registers a `dirname => Class` map; each widget is a folder with `class.php` + `view.php`, extending `Custom_Widget_Base` in `base.php`). Listing widgets (grid, list, slider, search, category box/slider, store grid) depend on Rtcl.
+- `demo-importer/` — one-click demo import (`config.php` + `demo-files/`), loaded on `plugins_loaded`.
+
+The theme and plugin are separate git repos, possibly on different branches. When theme code uses a plugin symbol (or vice-versa), verify it exists on the other repo's checked-out branch and guard it with `defined()` / `class_exists()` / `function_exists()`. Bumping the plugin also means updating the bundle zip, `inc/tgm-config.php`, and possibly the minimum in `plugin_update_notices()` (see Bootstrap chain).
+
 ## Working with this codebase
 
 - **Adding a new file under `inc/`**: also add a `URI_Helper::requires(...)` call in `inc/includes.php` (or in the relevant submodule loader like `inc/options/init.php` or `widgets/init.php`). Nothing autoloads.

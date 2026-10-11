@@ -94,6 +94,8 @@ class Listing_Functions {
 			},
 			20
 		);
+
+        add_filter( 'rtcl_force_classic_style', '__return_true' );
 	}
 
 	/**

@@ -3993,3 +3993,81 @@ span.rtcl-unread-badge {
     right: auto;
     left: 15px;
 }
+/*---------------------------------------------
+	Pricing Table
+--------------------------------------------- */
+/* Shared CL pricing box (Rtcl\Helpers\PricingBox) — style 1 in ClassiList look.
+   Kept at two classes so the widget's Elementor controls (box padding, colors) still win. */
+.rtcl-pricing-box.rtcl-pricing-box--v1 {
+	padding: 60px 20px;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__header,
+.rtcl-pricing-box--v1 .rtcl-pricing-box__body,
+.rtcl-pricing-box--v1 .rtcl-pricing-box__footer {
+	padding: 0;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__header::after {
+	display: none;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__title {
+	font-size: 22px;
+	line-height: 1.5;
+	letter-spacing: normal;
+	color: #222222;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__price {
+	margin-top: 0;
+	margin-bottom: 30px;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__currency {
+	font-size: 20px;
+	font-weight: 500;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__number {
+	font-size: 48px;
+	font-weight: 700;
+	letter-spacing: normal;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__period {
+	font-size: 16px;
+	font-weight: 400;
+	color: #646464;
+}
+.rtcl-pricing-box--v1.rtcl-el-pricing-box .rtcl-pricing-box__features ul {
+	gap: 14px;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__features li {
+	font-size: 16px;
+	color: #444444;
+	gap: 8px;
+}
+.rtcl-pricing-box--v1.rtcl-pricing-box--align-center .rtcl-pricing-box__features li {
+	justify-content: flex-start;
+	text-align: start;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__features i,
+.rtcl-pricing-box--v1 .rtcl-pricing-box__features svg {
+	color: inherit;
+	fill: currentColor;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__action {
+	margin-top: 30px;
+}
+.rtcl-pricing-box--v1 .rtcl-pricing-box__action a {
+	font-size: 14px;
+	line-height: 1.5;
+	text-transform: uppercase;
+	border-radius: 4px;
+}
+
+/* = Plugin Update Issues = */
+.rtcl-ajax-filter-item .rtcl-filter-title-wrap,
+.rtcl-ajax-filter-item .rtcl-filter-content,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-item .rtcl-filter-title-wrap,
+.rtcl-widget-ajax-filter-class .rtcl-ajax-filter-item .rtcl-filter-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+.rtcl-widget-ajax-filter-class .rtcl-widget-heading + .rtcl-ajax-filter-wrap {
+	margin-top: 0;
+}
