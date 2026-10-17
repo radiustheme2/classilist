@@ -88,9 +88,9 @@ class TGM_Config {
 			[
 				'name'     => 'ClassiList Core',
 				'slug'     => 'classilist-core',
-				'source'   => 'classilist-core.2.0.1.zip',
+				'source'   => 'classilist-core.zip',
 				'required' => true,
-				'version'  => '2.0.1',
+				'version'  => '2.0.2',
 			],
 			[
 				'name'     => 'RT Framework',
@@ -102,23 +102,23 @@ class TGM_Config {
 			[
 				'name'     => 'Classified Listing Pro',
 				'slug'     => 'classified-listing-pro',
-				'source'   => 'classified-listing-pro.4.2.5.zip',
+				'source'   => 'classified-listing-pro.zip',
 				'required' => true,
-				'version'  => '4.2.5',
+				'version'  => '4.3.0',
 			],
 			[
 				'name'     => 'Classified Listing Store',
 				'slug'     => 'classified-listing-store',
-				'source'   => 'classified-listing-store.3.2.1.zip',
+				'source'   => 'classified-listing-store.zip',
 				'required' => false,
-				'version'  => '3.2.1',
+				'version'  => '3.2.3',
 			],
 			[
 				'name'     => 'Review Schema Pro',
 				'slug'     => 'review-schema-pro',
-				'source'   => 'review-schema-pro.2.0.1.zip',
+				'source'   => 'review-schema-pro.zip',
 				'required' => false,
-				'version'  => '2.0.1',
+				'version'  => '2.1.2',
 			],
 		];
 

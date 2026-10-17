@@ -75,15 +75,17 @@ dwsync.xml
 # EXTRAS #
 ##########
 package-lock.json
-mix-manifest.json
 composer.lock
 yarn.lock
+bun.lock
 _ext_dev
 dist
+build
 .idea
+assets/css
+assets/js
 assets/modules
 tmp
 _ext_**
 .fleet
 *.txt
-languages/shopbuilder-pro.pot
